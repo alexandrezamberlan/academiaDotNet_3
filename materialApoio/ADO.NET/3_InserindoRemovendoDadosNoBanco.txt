@@ -1,0 +1,87 @@
+
+Conectando com BD manualmente - https://www.youtube.com/watch?v=H0ZcSyl0xws
+
+CONTINUANDO DO SISTEMA ANTERIOR
+
+INSERINDO NO BD
+=======================
+0. No Form, adicionar labels e textBox para:
+idMedidaGlicemia
+valorGlicemia
+dataMedida
+idPaciente
+
+1. No Form, adicionar botão Cadastrar (renomear nome)
+
+2. No evento de clique do botão, adicionar código:
+
+SqlConnection conexao = new SqlConnection(conexaoString);
+conexao.Open();
+try
+{
+   //capturar valores das variáveis
+   int idMedidaGlicemia = int.Parse(textBox_referente);
+   int valorGlicemia = int.Parse(textBox_referente);
+   string dataMedida = textBox_referente;
+   int idPaciente = int.Parse(textBox_referente);
+
+   //gerar sentenças SQL
+   string sqlTexto = "INSERT INTO MedidaGlicemia (idMedidaGlicemia, valorGlicemia, dataMedida, idPaciente) VALUES(@idMedidaGlicemia, @valorGlicemia, @dataMedida, @idPaciente)";
+   SqlCommand comando = new SqlCommand(sqlTexto, conexao);
+   comando.Parameters.AddWithValue("@idMedidaGlicemia",idMedidaGlicemia);
+   comando.Parameters.AddWithValue("@valorGlicemia",valorGlicemia);
+   comando.Parameters.AddWithValue("@dataMedida",dataMedida);
+   comando.Parameters.AddWithValue("@idPaciente",idPaciente);
+
+   //executar sentença SQL
+   comando.ExecuteNonQuery();     
+}
+catch (Exception e)
+{
+}
+
+conexao.Close();   
+
+//recarregar ListView
+carregarListView(); 
+
+
+REMOVENDO NO BD
+=======================
+3. No Form, adicionar botão Remover (renomear nome)
+
+4. No evento de clique do botão, adicionar código:
+//lembre que o remover está relacionado com ListView e a região selecionada
+
+SqlConnection conexao = new SqlConnection(conexaoString);
+conexao.Open();
+try 
+{
+   //MessageBox.Show(listView_medidasGlicemias.SelectedItems[0].Text);
+   int idMedidaGlicemia = int.Parse(listView_medidasGlicemias.SelectedItems[0].Text);
+   
+   //gerar sentenças SQL
+   string sqlTexto = "DELETE FROM MedidaGlicemia WHERE idMedidaGlicemia = @idMedidaGlicemia";
+
+   SqlCommand comando = new SqlCommand(sqlTexto, conexao);
+   comando.Parameters.AddWithValue("@idMedidaGlicemia",idMedidaGlicemia);
+
+   //executar sentença SQL
+   comando.ExecuteNonQuery();     
+}
+catch (Exception e)
+{
+}
+
+conexao.Close();
+
+//recarregar ListView
+carregarListView(); 
+
+
+EDITANDO NO BD
+=======================
+5. No Form, adicionar botão Editar (renomear nome)
+
+6. No evento de clique do botão, adicionar código:
+//lembre que o editar está relacionado com ListView e a região selecionada

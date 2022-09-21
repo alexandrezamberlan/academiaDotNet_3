@@ -1,0 +1,21 @@
+Entity Framework - EF
+    ORM ou Mapeamento Objeto Relacional (banco de dados e a orientação a objetos são conectados e 
+    gerados automaticamente)
+
+    Sugestão de vídeos aulas:
+    0) https://www.devmedia.com.br/entity-framework-tutorial/27764#Code - Visão geral EF
+    1) https://www.youtube.com/watch?v=QjetGzyyOHI - Code First - Danilo Aparecido     
+    2) https://www.youtube.com/watch?v=B4B6dRBCw9g - Database First - Danilo Aparecido
+    3) https://github.com/Ernakh/EntityFrameworkCodeFirst - Code First - Fabrício Londero
+    4) Gerenciando Migrações - https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/managing?tabs=vs
+
+    Estratégias:
+        1 - Database first  -> foco no banco
+        2 - Model first
+        3 - Code first      -> foco na OO -> pensa no modelo OO e o banco é gerado pelo ORM (migração)
+            - gerenciador de pacotes
+                - NuGet ou Console
+                - Instalando pacotes 
+                - Realizando migrações (conversões de OO para BD)    
+    
+        PROJETO OO <-> ORM <-> BD

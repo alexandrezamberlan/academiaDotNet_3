@@ -1,0 +1,79 @@
+0) https://www.devmedia.com.br/entity-framework-tutorial/27764#Code - Visão geral EF
+1) https://www.youtube.com/watch?v=QjetGzyyOHI - Code First - Danilo Aparecido     
+2) https://www.youtube.com/watch?v=B4B6dRBCw9g - Database First - Danilo Aparecido
+3) https://github.com/Ernakh/EntityFrameworkCodeFirst - Code First - Fabrício Londero
+4) Gerenciando Migrações - https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/managing?tabs=vs
+
+===================================================
+
+1 - Criar projeto Visual Studio -> Console application
+
+2 - Criar os modelos OO para a solução
+    adicionar as classes necessárias
+
+3 - Instalar o pacote/biblioteca no projeto criado 
+    VS -> Menu Ferramentas/Tools -> Gerenciador de Pacotes NuGet -> CONSOLE ou Gráfico
+        instalar no console -> Install-Package EntityFramework
+        
+    Uma vez feito isso, o Entity é instalado e todos os pacotes que geram dependência, inclusive Sql 
+
+4 - Criar a classe(s) de contexto para a(s) classe(s) criada(s)
+    Em geral, usa-se nome da classe seguido da palavra Context, por exemplo, classe Paciente, logo
+    classe PacienteContext
+
+    Lembre de herdar a classe criada ao DbContext e importar System.Data.Entity
+    
+    Por exemplo:
+
+    public class PacienteContext : DbContext
+    {
+        public DbSet<Paciente> Pacientes { get; set; }   
+    }
+
+5 - VS -> Menu -> Ferramentas  -> Gerenciador de Pacotes NuGet -> CONSOLE
+
+    0. (caso não esteja habilitado) habilitar migrações -> rodar no console -> Enable-Migrations
+
+    1. caso adicione uma classe - > rodar no console -> Add-Migration CreateNomeClasse
+        Por exemplo - > Add-Migration CreatePaciente
+        
+    2. aplicar a migração -> Update-Database (como se executasse um script de migração criado)
+
+
+    3. caso adicione um novo atributo - > rodar no console -> Add-Migration NomeClasseAtributo
+        Por exemplo - > Add-Migration PacienteCPF
+        
+    4. aplicar a migração -> Update-Database (como se executasse um script de migração criado)
+
+    
+ATENÇÃO: O Entity cria nomes automáticos para as tabelas e muitas vezes, cria nomes no plural usando
+regras da língua inglesa. Fique atento.
+
+Por exemplo, classe Medicamento -> tabela Medicamentoes 
+
+
+6 - 
+na classe Program,
+
+using (var contexto = new PacienteContext())
+{
+    Console.WriteLine("Inciando o programa!!"); //a primeira vez, vai criar o banco 
+    var quantidade_pacientes = contexto.Pacientes.Count();
+
+    contexto.Pacientes.Add(new Paciente("Alexandre", "alexz@ufn.edu.br"));
+
+    contexto.SaveChanges();
+
+    Console.WriteLine("Feito " + quantidade_pacientes);
+}
+
+7 - Caso adicionar uma nova classe ou alterar atributos de alguma já existente, lembrar:
+    -> de executar a migração, uma vez que o banco não reflete mais o que está no modelo de classes OO 
+
+8 - O Entity permite criar buscas:
+    var consulta = contexto.Pacientes.Where( p => p.Nome.Contains("Alexandre")).toString();
+    var listaPacientes = contexto.Pacientes.Where( p => p.Nome.Contains("Alexandre")).toList();
+
+
+
+

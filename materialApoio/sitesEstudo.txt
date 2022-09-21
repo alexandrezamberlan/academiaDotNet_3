@@ -1,0 +1,40 @@
+---------
+BACK-END
+---------
+
+Tutorial Git - 
+    https://rogerdudler.github.io/git-guide/index.pt_BR.html
+    Excelente vídeo sobre GitHub e VS Code - https://www.youtube.com/watch?v=HIqyLRKv-YE&t=777s
+
+Tutorial C# - 
+    https://www.w3schools.com/cs/index.php
+    Documentação oficial Microsoft - https://docs.microsoft.com/pt-br/dotnet/csharp/
+    Material do Professor Ricardo - https://github.com/alexandrezamberlan/academiaDotNet/tree/main/materialApoio/logicaProgramacao
+
+Tutorial Orientação a Objetos em C# - https://www.w3schools.com/cs/cs_oop.php
+
+Documentação de classes .net -> https://docs.microsoft.com/pt-br/dotnet/api/
+
+Tutorial SQL - https://www.w3schools.com/sql/
+
+Tutorial ASP e ASP .Net - https://www.w3schools.com/asp/default.asp
+
+Tutorial ASP.NET Core MVC - https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-6.0&tabs=visual-studio
+
+
+
+---------
+FRONT-END
+---------
+
+- W3c (World Wide Web Consortium)
+http://w3.org/
+
+- Mozzila Developer Network
+https://developer.mozilla.org/pt-BR/
+
+- WHATWG
+https://whatwg.org/
+
+- W3Schools
+https://www.w3schools.com/

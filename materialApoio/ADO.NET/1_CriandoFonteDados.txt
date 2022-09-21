@@ -1,0 +1,23 @@
+
+Criar a fonte de dados
+Esta etapa cria uma fonte de dados por meio de um banco de dados usando o assistente de Configuração de Fonte de Dados (Visual Studio)
+
+1. Para abrir a janela Fontes de Dados, use a pesquisa rápida (Ctrl+Q) e pesquise fontes de dados.
+
+2. Na janela Fontes de Dados, selecione Adicionar Nova Fonte de Dados para iniciar o assistente de Configuração de Fonte de Dados.
+
+3. Selecione Banco de Dados na página Escolher um Tipo de Fonte de Dados e, em seguida, clique em Avançar.
+
+4. Na tela Escolher um Modelo de Banco de Dados , escolha Conjunto de Dados e clique em Avançar.
+
+5. Na página Escolher Conexão de Dados , siga um destes procedimentos:
+    5.1. Se uma conexão de dados com o banco de dados de exemplo (ALGUM BANCO CRIADO EM AULA) estiver disponível na lista suspensa, selecione-o.
+    5.2. Selecione Nova Conexão para inicializar a caixa de diálogo Adicionar/Modificar Conexão.
+
+6. Na página Salvar cadeia de conexão na página de arquivo configuração do aplicativo , clique em Avançar.
+
+7. Na página Escolher objetos de banco de dados, expanda o nó Tabelas .
+
+8. Selecione a tabela DO BANCO CRIADO EM AULA e clique em Concluir.
+
+O BANCO CRIADO EM AULA é adicionado ao seu projeto e a tabela SELECIONADA aparece na janela Fontes de Dados.

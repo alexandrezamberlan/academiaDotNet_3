@@ -1,0 +1,40 @@
+Visual Studio Code - No terminal:
+
+Para criar uma solução
+    
+    dotnet new sln -n NomeDaSolucao
+
+Para criar uma solução para console
+    
+    dotnet new console -n NomeDaSolucao
+
+Para criar uma biblioteca
+    dotnet new classlib -n NomeBiblioteca
+
+
+Visual Studio - Teclas de atalho:
+
+F5 		    - tecla de atalho para execução
+Shift-F5 	- finaliza a execução
+F7 		    - altera entre as janelas abertas no VS
+Shift-Del	- excluir uma linha em que o cursor esta
+Alt-Setas	- movimenta um bloco ou linha
+Ctrl-K-C	- comenta linha ou bloco marcado
+Ctrl-K-U	- descontenta linha ou bloco marcado
+Ctrl-K-D	- indenta código do arquivo
+Ctrl-.	    - resolve problemas de using/imports ou quando erros acontecem
+              seleciona-se o erro e pressiona-se as teclas
+
+              pressionar 3 vezes / em cima do método para gerar C# Docs
+
+
+Shift-F12	- marca-se atributo/classe/método e o VS mostra todos os lugares que 
+              atributo/classe/método são executados
+
+Para Debug:
+F9		    - cria um breakpoint
+F11		    - inicia debug linha a linha
+F10		    - linha a linha, mas não entra no método…fica no escopo
+
+instrução-Tab-Tab 	
+            - monta a sintaxe da instrução

@@ -1,0 +1,154 @@
+EntityFramework e Relacionamento entre Objetos (classes)
+    - identificador
+    - chave estrangeira
+
+1) https://www.youtube.com/watch?v=OtLjyRoAkDA&t=1448s - Tutorial sobre o assunto
+
+===================================================
+
+1 - Criar projeto Visual Studio -> Console application ou Windows Form
+
+2 - Criar os modelos OO para a solução
+    
+    Carro 0..n    -----    1..1 Modelo
+
+    Vamos trabalhar com a estratégia CodeFirst 
+
+    ATENÇÃO AOS TÓPICOS DISCUTIDOS NO EXEMPLO:
+        - atributo ou método com a palavra-reservada VIRTUAL (uso do lazy load)
+            - associação em tempo de execução
+        - uso de collection (lista, dbset, ...)
+        - restrições de integridade (primary key e foreign key)
+        - migrações
+
+
+    [Table("Modelos")] //fique ligado nessa notação
+    public class Modelo
+    {
+        public int Id { get; set; } 
+        public string Nome { get; set; }
+    }       
+    -----------------------------------------------
+    
+    [Table("Veiculos")] //fique ligado nessa notação
+    public class Veiculo
+    {
+        public int Id { get; set; }
+        public int ModeloId { get; set; }
+        public string Nome { get; set; }
+        public int Ano { get; set; }    
+    } 
+
+3 - Instalar o pacote/biblioteca no projeto criado 
+    VS -> Menu Ferramentas/Tools -> Gerenciador de Pacotes NuGet -> CONSOLE ou Gráfico
+        instalar no console -> Install-Package EntityFramework
+        
+    Uma vez feito isso, o Entity é instalado e todos os pacotes que geram dependência, inclusive Sql 
+
+4 - Criar a classe(s) de contexto para a(s) classe(s) criada(s)
+    
+    Lembre de herdar a classe criada ao DbContext e importar System.Data.Entity
+    
+    Por exemplo:
+
+    public class BaseContext : DbContext //lembre de fazer a importação
+    {
+        //instanciando BaseContext com o banco com esse nome
+        public BaseContext() : base("BancoDadosVeiculos") { }
+
+        public DbSet<Veiculo> Veiculos { get; set; }
+        public DbSet<Modelo> Modelos { get; set; }
+    }
+
+5 - Dentro das classes criadas:
+    precisa-se definir assinaturas
+
+    [Table("Modelos")] //fique ligado nessa notação
+    public class Modelo
+    {
+        [Key()] //forçando que Id é a chave primária
+        public int Id { get; set; } 
+        public string Nome { get; set; }
+    }       
+    -----------------------------------------------
+    
+    [Table("Veiculos")] //fique ligado nessa notação
+    public class Veiculo
+    {
+        [Key()] //forçando que Id é chave primária
+        public int Id { get; set; }
+
+        [ForeignKey("Modelo")] //informando que ModeloId vem da tabela/classe Modelo
+        public int ModeloId { get; set; }
+        //atenção, para garantir uma associação em tempo de execução, cria-se um objeto Modelo virtual
+        public virtual Modelo Modelo { get; set; } //lazy load
+
+        public string Nome { get; set; }
+        public int Ano { get; set; }    
+    } 
+
+6 - Dentro de cada classe do modelo, pode-se construir o métodos: salvar, listarTodos, etc
+
+//para a classe Veiculo
+public void Salvar() 
+{
+    var db = new BaseContext();
+    db.Veiculos.Add(this);
+    db.SaveChanges();
+}
+
+public static List<Veiculo> Todos() {
+    var db = new BaseContext();
+    return db.Veiculos.ToList();
+}
+
+
+//para a classe Modelo
+public void Salvar() 
+{
+    var db = new BaseContext();
+    db.Modelos.Add(this);
+    db.SaveChanges();
+}
+
+public static List<Modelo> Todos() {
+    var db = new BaseContext();
+    return db.Modelos.ToList();
+}
+
+
+7 - VS -> Menu -> Ferramentas  -> Gerenciador de Pacotes NuGet -> CONSOLE
+
+    0. (caso não esteja habilitado) habilitar migrações -> rodar no console -> Enable-Migrations
+
+    1. caso adicione uma classe - > rodar no console -> Add-Migration NomeMigracao
+        Por exemplo - > Add-Migration TabelasSistemaGaragem
+        
+    2. aplicar a migração -> Update-Database 
+        (como se executasse um script de migração criado)
+
+
+8 - Experiências
+
+//Modelo modelo = new Modelo("XLX");
+//modelo.Salvar();
+
+var listaModelos = Modelo.Todos();
+
+foreach (var item in listaModelos)
+{
+    Console.WriteLine(item.Id);
+    Console.WriteLine(item.Nome);
+}
+
+//Veiculo veiculo = new Veiculo() { Nome = "Honda Civic", Modelo = listaModelos.First(), Ano = 2011 };
+//veiculo.Salvar();
+
+var listaVeiculos = Veiculo.Todos();
+
+foreach (var item in listaVeiculos)
+{
+    Console.WriteLine(item.Id);
+    Console.WriteLine(item.Nome);
+    Console.WriteLine(item.Modelo.Nome);    
+}
