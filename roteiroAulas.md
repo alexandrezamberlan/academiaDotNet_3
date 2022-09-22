@@ -2,9 +2,8 @@
 
 ## 21/09/2022
 
-Apresentação da turma, colegas e habilidades
-
-Boas práticas de trabalho em equipe na computação
+- Apresentação da turma, colegas e habilidades
+- Boas práticas de trabalho em equipe na computação
     1) Versionamento de código
 https://visualstudio.microsoft.com/pt-br/free-developer-offers/
         Para sincronizar VS Code ou VS 2022 com GitHub é preciso:
@@ -17,7 +16,7 @@ https://visualstudio.microsoft.com/pt-br/free-developer-offers/
         https://docs.microsoft.com/pt-br/dotnet/csharp/
         https://www.w3schools.com/cs/index.php
 
-Ambientes de Desenvolvimento (IDE)
+- Ambientes de Desenvolvimento (IDE)
     Visual Studio 2022 - https://visualstudio.microsoft.com/pt-br/free-developer-offers/
     Visual Studio Code - https://visualstudio.microsoft.com/pt-br/free-developer-offers/
     Git - https://git-scm.com/downloads
