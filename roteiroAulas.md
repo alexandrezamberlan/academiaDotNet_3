@@ -7,10 +7,10 @@
     1) Versionamento de código
         - https://visualstudio.microsoft.com/pt-br/free-developer-offers/
         - Para sincronizar VS Code ou VS 2022 com GitHub é preciso:
-            1) instalado o git na máquina
+            1) instalar o git na máquina
             2) no VS Code - instalar a extensão GitLens
-            3) primeiro criar o projeto no github, segundo, clonar na sua máquina, alterar e sincronizar
-                o primeiro sincronismo deve validar com usuário e senha na WEB
+            3) primeiro, criar o projeto no github, segundo, clonar na sua máquina, alterar e sincronizar
+                - o primeiro sincronismo deve validar com usuário e senha na WEB
 
     2) Consultar fontes da microsoft de preferência
         - https://docs.microsoft.com/pt-br/dotnet/csharp/
