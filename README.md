@@ -4,19 +4,15 @@ Terceira Turma de formação Dot NET entre a empresa Atos e a universidade UFN.
 
 ## Professores: 
 
-Alexandre Zamberlan
-
-Fabrício Londero - https://github.com/Ernakh
-
-Ricardo Frohlich da Silva - https://github.com/ricardosma
+- Alexandre Zamberlan
+- Fabrício Londero - https://github.com/Ernakh
+- Ricardo Frohlich da Silva - https://github.com/ricardosma
 
 # Backend C#
 
-Console (escrita e leitura)
-
-Instruções de controle
-
-Uso de variáveis
+- Console (escrita e leitura)
+- Instruções de controle
+- Uso de variáveis
 
 ## Orientação a objetos
 
