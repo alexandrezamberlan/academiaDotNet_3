@@ -1,3 +1,8 @@
-# Academia Dot Net 2022_2
+# Academia Dot Net 2022 (Setembro a Dezembro)
 
-Segunda Turma de formação Dot NET entre a empresa Atos e a universidade UFN.
+Terceira Turma de formação Dot NET entre a empresa Atos e a universidade UFN.
+
+Professores: 
+Alexandre Zamberlan
+Fabrício Londero
+Ricardo Frohlich da Silva
