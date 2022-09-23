@@ -5,8 +5,8 @@ Terceira Turma de formação Dot NET entre a empresa Atos e a universidade UFN.
 ## Professores: 
 
 - Alexandre Zamberlan
-- Fabrício Londero - https://github.com/Ernakh
-- Ricardo Frohlich da Silva - https://github.com/ricardosma
+- Fabrício Londero - https://github.com/Ernakh (Coordenador Academia Java e Dot Net)
+- Ricardo Frohlich da Silva - https://github.com/ricardosma (Coordenador Turma Dot Net)
 
 # Backend C#
 
