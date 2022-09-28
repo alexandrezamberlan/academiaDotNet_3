@@ -6,6 +6,10 @@ int numero;
 do {
     Console.Write("Digite um número inteiro qualquer ou 0 para sair: ");
     numero = int.Parse(Console.ReadLine());
+    if (numero == 0)
+    {
+        break;
+    }
 
     if (numero % 2 == 0) {
         Console.WriteLine(numero + " é par!!");
@@ -27,3 +31,4 @@ do {
     }
 
 } while (numero != 0);
+
