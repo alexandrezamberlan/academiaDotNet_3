@@ -3,6 +3,7 @@ BACK-END
 ---------
 
 Tutorial Git - 
+    https://docs.github.com/pt/get-started/quickstart/hello-world
     https://rogerdudler.github.io/git-guide/index.pt_BR.html
     Excelente vídeo sobre GitHub e VS Code - https://www.youtube.com/watch?v=HIqyLRKv-YE&t=777s
 
