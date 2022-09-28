@@ -1,5 +1,10 @@
 # Roteiro das Aulas
 
+## 28/09/2022
+- Fazendo a lista de exercícios 3 - repetição
+- Revendo como usar o git, github no terminal (cmd ou shell) e no VS Code
+
+
 ## 21/09/2022
 
 - Apresentação da turma, colegas e habilidades
