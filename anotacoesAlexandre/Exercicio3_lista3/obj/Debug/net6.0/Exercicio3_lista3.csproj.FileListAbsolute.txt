@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\obj\Debug\net6.0\Exercicio3_lista3.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\obj\Debug\net6.0\Exercicio3_lista3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\obj\Debug\net6.0\Exercicio3_lista3.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\obj\Debug\net6.0\Exercicio3_lista3.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\obj\Debug\net6.0\Exercicio3_lista3.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\bin\Debug\net6.0\Exercicio3_lista3.exe
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\bin\Debug\net6.0\Exercicio3_lista3.deps.json
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\bin\Debug\net6.0\Exercicio3_lista3.runtimeconfig.json
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\bin\Debug\net6.0\Exercicio3_lista3.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\bin\Debug\net6.0\Exercicio3_lista3.pdb
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\obj\Debug\net6.0\Exercicio3_lista3.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\obj\Debug\net6.0\refint\Exercicio3_lista3.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\obj\Debug\net6.0\Exercicio3_lista3.pdb
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\obj\Debug\net6.0\Exercicio3_lista3.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio3_lista3\obj\Debug\net6.0\ref\Exercicio3_lista3.dll

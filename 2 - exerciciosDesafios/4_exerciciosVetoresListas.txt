@@ -1,0 +1,11 @@
+1 - Pesquisar no W3Schools ou site de documentação da Microsoft como utilizar:
+    - vetores (arrays) de inteiros e vetores de strings 
+        - como colocar valores
+        - pesquisar por valores
+        - como remover valores
+
+    - a classe List<T> - estrutura de dados do tipo lista que recebe elementos de 
+      um mesmo tipo (Tipo)
+        - como colocar valores string na estrutura
+        - como pesquisar por valores na estrutura
+        - como remover valores dessa estrutura
