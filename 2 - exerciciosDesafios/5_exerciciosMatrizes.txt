@@ -1,0 +1,41 @@
+1) Crie uma Matriz 5x3. Na primeira coluna, solicite que o usuário preencha. A 2ª coluna, some 10 aos elementos da 1ª coluna. Na 3º coluna, armazene o dobro dos elementos da 1ª coluna.
+
+2) Solicite ao usuário, preencher uma Matriz 3x3
+
+Informe ao usuário:
+*A soma dos elementos de cada linha
+	-Ex: Linha 1: 30
+	     Linha 2: 17
+*A soma dos elementos de cada coluna
+	-Ex: Coluna 1: 23
+	     Coluna 2: 36
+
+3) Popule uma matriz 4x4 e mostre os elementos da Diagonal Principal!
+
+
+4) Popule uma matriz 5x5 e informe:
+-Quantos números são pares
+-Quantos números são impares
+-Quantos números são positivos
+-Quantos números são negativos
+-Quantos zeros existem!
+
+5) Leia duas matrizes 2x3 de números double. 
+Imprima a soma destas duas matrizes.
+
+
+6) Gere e imprima uma matriz M 4x4 com valores aleatórios entre 0-9. Após isso determine o maior número da matriz.
+Random random = new Random();
+int randomNumber = random.Next(0, 100);
+
+
+7) Leia duas matrizes A e B com 3x3 elementos. Construir uma matriz C, onde cada elemento de C é a subtração do elemento correspondente de A com B.
+
+9) Ler uma matriz com 4x4 de inteiros e mostrar os números na ordem direta e inversa a que foram lidos.
+
+10) Leia uma matriz 3x3.  Em seguida, solicite um número qualquer ao usuário e pesquise na matriz se o número existe.  
+Caso, seja verdade imprima a mensagem:  “O número existe no vetor” , caso contrário “Número inexistente”.
+
+11) Leia duas matrizes A e B de 4x4 elementos, calcule a média dos mesmos, em seguida, diga quantos dos elementos lidos estão abaixo, acima e na média.
+
+12) Leia uma matriz A de tipo double de dimenção 3x3, crie uma nova matriz resultante da divisão dos elementos da matriz A pela soma dos seus indices.
