@@ -1,7 +1,7 @@
 # Roteiro das Aulas
 
 
-## 05/102055
+## 05/10/2055
 - Orientação a Objetos 
     - https://www.w3schools.com/cs/cs_oop.php
     - https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/oop
@@ -23,17 +23,10 @@
             - de sobrecarga - um mesmo método funcionando de mais de uma forma
             - de sobreescrita - um método herdado é reescrito localmente
 
-
     string nomePessoa;
         - objeto/instancia/elemento/ocorrencia ele possui:
             1) propriedades/caracteristicas/atributos
             2) comportamentos/funcionalidades/operações/métodos
-
-    
-
-
-
-
 
 ## 28/09/2022
 - Fazendo a lista de exercícios 3 - repetição
