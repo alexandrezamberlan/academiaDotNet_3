@@ -33,7 +33,6 @@ Menu
 4 - Sair
 Opção: 
 
-
 5. Crie um programa em VS que popule duas listas (lista1 e lista2) com números aleatórios (100 a 200).
 A quantidade de números deve ser informada pelo usuário. Em seguida, o programa deve listar os 
 conteúdos das duas listas e exibir os números que aparecem em ambas as listas.
