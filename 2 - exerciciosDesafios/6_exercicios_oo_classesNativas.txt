@@ -17,3 +17,26 @@ Menu
 2 - Listar 
 3 - Sair 
 Opção: 
+
+4. Fazer um programa em VS que realize um CRUD (inserir, pesquisar, atualizar e deletar) 
+completo em uma lista de nomes de criptomoedas. Neste programa, somente o nome da criptomoeda deve 
+ser cadastrado (em maiúsculo). Ao cadastrar, não pode haver duplicidade de dados na lista. Sempre
+que a opção listar for acionada, a listagem deve ser exibida de forma ordenada. No processo de 
+remoção, o usuário entra com o nome da criptomoeda que deseja remover. Caso o programa a encontre,
+deve remover e avisar o usuário que a operação ocorreu corretamente, e caso não a encontre, avisar
+ao usuário que nome não foi encontrado.
+
+Menu 
+1 - Cadastrar criptomoeda 
+2 - Listar criptomoedas
+3 - Remover criptomoeda
+4 - Sair
+Opção: 
+
+
+5. Crie um programa em VS que popule duas listas (lista1 e lista2) com números aleatórios (100 a 200).
+A quantidade de números deve ser informada pelo usuário. Em seguida, o programa deve listar os 
+conteúdos das duas listas e exibir os números que aparecem em ambas as listas.
+
+6. Continuação do exercício 1. Entretanto, quando listar os nomes, mostrar somente os sobrenomes.
+Além disso, o programa deve mostrar as pessoas que são da mesma família.
