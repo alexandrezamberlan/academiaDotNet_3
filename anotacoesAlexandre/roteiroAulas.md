@@ -1,6 +1,5 @@
 # Roteiro das Aulas
 
-
 ## 05/10/2055
 - Orientação a Objetos 
     - https://www.w3schools.com/cs/cs_oop.php
