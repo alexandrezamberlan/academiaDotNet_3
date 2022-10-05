@@ -1,5 +1,40 @@
 # Roteiro das Aulas
 
+
+## 05/102055
+- Orientação a Objetos 
+    - https://www.w3schools.com/cs/cs_oop.php
+    - https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/oop
+
+    - Usar classes nativas do C#: List, string, Random, ....
+
+    Paradigma da Orientação a Objetos 
+        - operacionaliza a ideia de "terceirização" de serviços
+
+        - reutilização
+            - instanciação de objetos (definir que um objeto é de um tipo ou associado a uma classe)
+                - automaticamente o objeto encapsula atributos e métodos da classe associada
+            - herança
+        - encapsulamento/segurança
+            - um objeto ou uma classe possuem atributos e métodos exclusivos a ela
+            - visibilidade (private, protected e public)
+
+        - polimorfismo
+            - de sobrecarga - um mesmo método funcionando de mais de uma forma
+            - de sobreescrita - um método herdado é reescrito localmente
+
+
+    string nomePessoa;
+        - objeto/instancia/elemento/ocorrencia ele possui:
+            1) propriedades/caracteristicas/atributos
+            2) comportamentos/funcionalidades/operações/métodos
+
+    
+
+
+
+
+
 ## 28/09/2022
 - Fazendo a lista de exercícios 3 - repetição
 - Revendo como usar o git, github no terminal (cmd ou shell) e no VS Code

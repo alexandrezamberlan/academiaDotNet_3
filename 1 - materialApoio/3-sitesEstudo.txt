@@ -13,6 +13,7 @@ Tutorial C# -
     Material do Professor Ricardo - https://github.com/alexandrezamberlan/academiaDotNet/tree/main/materialApoio/logicaProgramacao
 
 Tutorial Orientação a Objetos em C# - https://www.w3schools.com/cs/cs_oop.php
+                                    - https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/oop
 
 Documentação de classes .net -> https://docs.microsoft.com/pt-br/dotnet/api/
 

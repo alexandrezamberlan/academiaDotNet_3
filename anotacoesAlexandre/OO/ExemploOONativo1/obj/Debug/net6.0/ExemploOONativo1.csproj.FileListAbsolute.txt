@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\bin\Debug\net6.0\ExemploOONativo1.exe
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\bin\Debug\net6.0\ExemploOONativo1.deps.json
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\bin\Debug\net6.0\ExemploOONativo1.runtimeconfig.json
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\bin\Debug\net6.0\ExemploOONativo1.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\bin\Debug\net6.0\ExemploOONativo1.pdb
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\obj\Debug\net6.0\ExemploOONativo1.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\obj\Debug\net6.0\ExemploOONativo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\obj\Debug\net6.0\ExemploOONativo1.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\obj\Debug\net6.0\ExemploOONativo1.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\obj\Debug\net6.0\ExemploOONativo1.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\obj\Debug\net6.0\ExemploOONativo1.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\obj\Debug\net6.0\refint\ExemploOONativo1.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\obj\Debug\net6.0\ExemploOONativo1.pdb
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\obj\Debug\net6.0\ExemploOONativo1.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\OO\ExemploOONativo1\obj\Debug\net6.0\ref\ExemploOONativo1.dll
