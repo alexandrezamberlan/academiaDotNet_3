@@ -1,0 +1,5 @@
+1 - Crie uma classe Livro que represente os dados básicos de um livro. 
+Faça a leitura pelo teclado dos atributos e crie um construtor para fazer o instanciamento.  
+
+2 - Escreva uma classe Pessoa contendo todos os atributos de uma pessoa. Faça métodos para apresentar os dados.
+Faça a leitura pelo teclado dos atributos e crie um construtor para fazer o instanciamento.  
