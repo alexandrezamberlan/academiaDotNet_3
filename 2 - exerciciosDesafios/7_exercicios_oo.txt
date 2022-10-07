@@ -3,3 +3,5 @@ Faça a leitura pelo teclado dos atributos e crie um construtor para fazer o ins
 
 2 - Escreva uma classe Pessoa contendo todos os atributos de uma pessoa. Faça métodos para apresentar os dados.
 Faça a leitura pelo teclado dos atributos e crie um construtor para fazer o instanciamento.  
+
+3 - Faça um programa para controlar o aluguel de carros. Deve ter as classes Carro, aluguel e cliente.
