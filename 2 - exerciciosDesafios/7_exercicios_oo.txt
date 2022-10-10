@@ -13,7 +13,7 @@ Faça a leitura pelo teclado dos atributos e crie um construtor para fazer o ins
 6 - Crie uma classe Agenda que pode armazenar 10 pessoas e que seja capaz de realizar as seguintes operações:
   void armazenaPessoa(String nome, int idade, float altura);
   void removePessoa(String nome);
-  int buscaPessoa(String nome); // informa em que posição da agenda está a pessoa
+  Pessoa buscaPessoa(String nome); // retorna a pessoa com o nome informado
   void imprimeAgenda(); // imprime os dados de todas as pessoas da agenda
   
 7 - Crie uma classe denominada Elevador para armazenar as informações de um elevador dentro de um prédio. A classe deve armazenar o andar atual (térreo = 0), total de andares no prédio (desconsiderando o térreo), capacidade do elevador e quantas pessoas estão presentes nele. A classe deve também disponibilizar os seguintes métodos:
