@@ -5,3 +5,29 @@ Faça a leitura pelo teclado dos atributos e crie um construtor para fazer o ins
 Faça a leitura pelo teclado dos atributos e crie um construtor para fazer o instanciamento.  
 
 3 - Faça um programa para controlar o aluguel de carros. Deve ter as classes Carro, aluguel e cliente.
+
+4 - Faça um programa que represente a arvore genealógica da tua familia. Para isso, uma classe Pessoa precisa ser indicar quem são seus pais, alem deinformações básicas sobre a pessoa.
+
+5 - Identifique	 as	 classes	 e	 implemente	 um	 programa	 para	 a	 seguinte	 especificação:	 "O	supermercado	 vende	 diferentes	 tipos	 de	 produtos.	 Cada	 produto	 tem	 um	 preço	 e	 uma	quantidade	em	estoque.	Um	pedido	de	um	cliente	é	composto	de	itens,	onde	cada	item	especifica	o	produto	que	o	cliente	deseja	e	a	respectiva	quantidade. Esse	pedido	pode	ser	pago	em	dinheiro,	cheque	ou	cartão."
+
+6 - Crie uma classe Agenda que pode armazenar 10 pessoas e que seja capaz de realizar as seguintes operações:
+  void armazenaPessoa(String nome, int idade, float altura);
+  void removePessoa(String nome);
+  int buscaPessoa(String nome); // informa em que posição da agenda está a pessoa
+  void imprimeAgenda(); // imprime os dados de todas as pessoas da agenda
+  
+7 - Crie uma classe denominada Elevador para armazenar as informações de um elevador dentro de um prédio. A classe deve armazenar o andar atual (térreo = 0), total de andares no prédio (desconsiderando o térreo), capacidade do elevador e quantas pessoas estão presentes nele. A classe deve também disponibilizar os seguintes métodos:
+Inicializa : que deve receber como parâmetros a capacidade do elevador e o total de andares no prédio (os elevadores sempre começam no térreo e vazio);
+  Entra : para acrescentar uma pessoa no elevador (só deve acrescentar se ainda houver espaço);
+  Sai : para remover uma pessoa do elevador (só deve remover se houver alguém dentro dele);
+  Sobe : para subir um andar (não deve subir se já estiver no último andar);
+  Desce : para descer um andar (não deve descer se já estiver no térreo);
+  Encapsular todos os atributos da classe (criar os métodos set e get).
+  
+8 - Crie uma classe Televisao e uma classe ControleRemoto que pode controlar o volume e trocar os canais da televisão. O controle de volume permite:
+    - aumentar ou diminuir a potência do volume de som em uma unidade de cada vez;
+    - aumentar e diminuir o número do canal em uma unidade
+    - trocar para um canal indicado;
+    - consultar o valor do volume de som e o canal selecionado.
+    
+  
