@@ -1,0 +1,56 @@
+1) Implemente um programa em C# no qual o usuário deverá informar o nome e o poder (0 a 10) de três personagens. 
+O programa deverá informar o nome do personagem que possuir o maior poder.
+
+Regras que deverão ser seguidas para a implementação do algoritmo:
+
+É obrigatório o uso de classe para representar um Personagem e a mesma deverá possuir como propriedades (características) um nome e um poder.
+A classe também deverá possuir um método chamado ExibirDados. Esse método deverá exibir o nome e o poder do personagem em questão.
+Ao implementar a classe é obrigatório implementar dois construtores (Sobrecarga), um que não recebe parâmetro algum e outro que 
+irá receber o nome e o poder de um personagem
+
+
+2) Crie um programa em C# no qual o usuário deverá informar o nome e o tipo de cinco animais de estimação. 
+O programa deverá exibir na tela para o usuário quantos Cachorros, Gatos e Peixes foram informados.
+
+Regras que deverão ser seguidas para a implementação do programa:
+
+Os únicos tipos de animais válidos são Cachorro, Gato, Peixe.
+Caso seja informado um tipo diferente o programa repetir até o usuário digitar um tipo válido.
+É obrigatório criar uma classe para representar o Animal.
+A classe deverá possuir dois dados privados (propriedades) para representar as características do animal.
+A classe deverá possuir métodos de acesso (propriedade getter e setter) para permitir que o usuário armazene/leia os dados dos dois dados privados (propriedades).
+
+3) Imagine um jogo com asteroides e uma nave de ataque, que deve destruir os asteróides que voam em todas as direções. Dessa forma, crie um programa em C# que represente
+uma lista de asteroides que deveriam ser 'inseridos' no jogo. Para isso, faça uma classe que contenha os atributos (privados) posição x, posição y (do asteroide em
+um plano cartesiano), tamanho do asteroide (1 a 10), velocidade do asteroide (1 a 5) e energia (1 a 5). Para esses atributos privados, gerar os métodos de acesso
+(propriedades getter e setter). Além disso, implementar 3 construtores (sobrecarga): um vazio, outro passando todos os parâmetros de um objeto tipo Asteroide, e um 
+terceiro que constrói um asteroide com posição x e posição y. 
+O programa principal (main) deve conter a lista de Asteroides, preenchida pelo usuário. Nesse programa principal, construir um método de classe que exiba todos os
+asteróides da lista.
+
+4) Crie uma classe para representar um item de cenário, com os atributos privados de:
+    * descrição (string), 
+    * data de criação (date - https://docs.microsoft.com/en-us/dotnet/api/system.datetime.date?view=net-6.0) e
+    * altura (float). 
+
+Crie os métodos públicos necessários para sets e gets, o construtor básico e também um método para imprimir 
+todos dados de um item de cenário. 
+Por fim, crie um método para calcular a quanto tempo o item foi criado, além de um programa em C# para testar
+a classe criada.
+
+5) Crie uma classe para representar um objeto em um Plano Cartesiano. Todo objeto no plano cartesiano
+tem como atributos 'x' e 'y'. Dessa forma, crie os getters e setter de 'x' e 'y', o construtor básico e
+um método para exibir um objeto (x,y).
+Por fim, crie um programa em C# que cadastre 'n' objetos em uma lista (List), um método de que exiba
+os objetos da lista.
+
+6) Crie uma classe para funcionário. Ele deve ter o nome do funcionário, o departamento onde trabalha, seu salário (double), a data de entrada no banco (String), seu RG (String) e um valor booleano que indique se o
+funcionário ainda está ativa na empresa no momento ou se já foi mandado embora.
+Você deve criar alguns métodos de acordo com sua necessidade. Além deles, crie um método bonifica que aumenta o salario do funcionário de acordo com o parâmetro passado como argumento. Crie, também, um
+método demite, que não recebe parâmetro algum, só modifica o valor booleano indicando que o funcionário não trabalha mais aqui.
+Crie uma lista de funcionários e faça um menu iterativo onde você pode inserir e consultar todos os funcionários cadastratos.
+
+Utilizando o exercício anterior, faça um método abstrato na classe funcionário chamado "ExecutaTrabalho". Haverá duas implementações da classe Funcionario chamada de Gerente e Operador. 
+Nos metodos de cada uma das classes Gerente e Operador deverá aparecer a mensagem informando qual é a função desempenhada pelo funcionário
+
+7) Crie um dicionário que faça o armazenamento de Livros. Os dados para serem armazenados serão o nome do livro e a quantidade de páginas. Em um menu inicial, possibilite que o usuário do sistema possa cadastrar, consultar todos livros cadastrados ou pesquisar pelo nome do livro.
