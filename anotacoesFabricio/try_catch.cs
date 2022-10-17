@@ -16,6 +16,10 @@ static void Main(string[] args)
             {
                 Console.WriteLine("Apenas números devem ser digitados!");
             }
+            catch(OverflowException ex)
+            {
+                Console.WriteLine("Numero informado inválido: muito grande");
+            }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
