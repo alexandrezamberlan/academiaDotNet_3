@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/bin/Debug/net6.0/FigurinhasCopa
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/bin/Debug/net6.0/FigurinhasCopa.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/bin/Debug/net6.0/FigurinhasCopa.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/bin/Debug/net6.0/FigurinhasCopa.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/bin/Debug/net6.0/FigurinhasCopa.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/obj/Debug/net6.0/FigurinhasCopa.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/obj/Debug/net6.0/FigurinhasCopa.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/obj/Debug/net6.0/FigurinhasCopa.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/obj/Debug/net6.0/FigurinhasCopa.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/obj/Debug/net6.0/FigurinhasCopa.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/obj/Debug/net6.0/FigurinhasCopa.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/obj/Debug/net6.0/refint/FigurinhasCopa.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/obj/Debug/net6.0/FigurinhasCopa.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/obj/Debug/net6.0/FigurinhasCopa.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/FigurinhasCopa/obj/Debug/net6.0/ref/FigurinhasCopa.dll
