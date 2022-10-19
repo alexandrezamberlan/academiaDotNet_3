@@ -1,0 +1,15 @@
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/bin/Debug/net6.0/ManipulandoArquivos
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/bin/Debug/net6.0/ManipulandoArquivos.deps.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/bin/Debug/net6.0/ManipulandoArquivos.runtimeconfig.json
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/bin/Debug/net6.0/ManipulandoArquivos.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/bin/Debug/net6.0/ManipulandoArquivos.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/obj/Debug/net6.0/ManipulandoArquivos.csproj.AssemblyReference.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/obj/Debug/net6.0/ManipulandoArquivos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/obj/Debug/net6.0/ManipulandoArquivos.AssemblyInfoInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/obj/Debug/net6.0/ManipulandoArquivos.AssemblyInfo.cs
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/obj/Debug/net6.0/ManipulandoArquivos.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/obj/Debug/net6.0/ManipulandoArquivos.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/obj/Debug/net6.0/refint/ManipulandoArquivos.dll
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/obj/Debug/net6.0/ManipulandoArquivos.pdb
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/obj/Debug/net6.0/ManipulandoArquivos.genruntimeconfig.cache
+/Users/alexandrezamberlan/Documents/_codigos/academiaDotNet_3/anotacoesAlexandre/OO/ManipulandoArquivos/obj/Debug/net6.0/ref/ManipulandoArquivos.dll

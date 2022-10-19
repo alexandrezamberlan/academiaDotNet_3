@@ -1,5 +1,12 @@
 # Roteiro das Aulas
 
+## 19/10/2055
+- Práticas com OO, Listas e Manipulação de arquivos (plain text)
+    - StreamReader
+    - StreamWriter
+    - Classe Utilidade -> métodos de classe para alguns serviços...
+    - Classe da Regra do Negócio 
+
 ## 05/10/2055
 - Orientação a Objetos 
     - https://www.w3schools.com/cs/cs_oop.php
