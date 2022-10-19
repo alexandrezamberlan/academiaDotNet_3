@@ -29,4 +29,14 @@ Opção:
 Para este programa, usar a classe Figurinha (codigo_figurinha, selecao, nome_jogador), lista que armazena as figurinhas em memória,
 arquivo .csv com os dados das figurinhas persistidos em disco.
 
-Para as figurinhas repetidas, deve haver uma lista e um arquivo .csv; o mesmo para as figurinhas faltantes.
+Para as figurinhas repetidas, deve haver uma lista e um arquivo .csv; o mesmo para as figurinhas faltantes. Toda vez que as opções 3 ou 4 foram selecionadas,
+além da listagem na tela, gerar um arquivo de saída com os mesmos dados da tela. Esse arquivo é o utilizado para mandar aos amigos.
+
+
+nos arquivos .csv. Por exemplo, arquivo de figurinhas repetidas, repetidas.csv
+
+codigo figurinha;seleçao;nome do jogador 
+codigo figurinha;seleçao;nome do jogador 
+codigo figurinha;seleçao;nome do jogador 
+codigo figurinha;seleçao;nome do jogador 
+codigo figurinha;seleçao;nome do jogador 
