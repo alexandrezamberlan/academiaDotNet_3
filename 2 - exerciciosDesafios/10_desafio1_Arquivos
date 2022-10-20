@@ -8,7 +8,6 @@ Passos:
 •	Leia o arquivo .txt disponibilizado pelos professores
 •	Extraia os dados do .txt e crie objetos destes dados
 •	Mostre na tela, quantos objetos Pessoa e quantos Alunos foram criados.
-•	Salve as informações no banco de dados (crie as tabelas necessárias).
 •	Mostre os cursos de cada Aluno!
 
 Manual do arquivo txt:
@@ -17,8 +16,10 @@ Geral:
 •	Cada linha tem um significado
 •	A linha que começa com “X” é o cabeçalho, só informa que o arquivo é referente Pessoas
 •	A linha que começa com “Z” traz os dados dos alunos
-•	A linha que começa com “Y”, é referente ao curso que a Pessoa esta cursando, a linha “Y” vem sempre depois de uma linha “Z”, logo, a linha “Y” é sobre o curso do Aluno(“Z”).
-•	Nem sempre uma linha “Y” é seguida por uma linha “Z”, significa que é uma Pessoa cadastrada, e não um aluno. Logo, após uma linha “Z” aparece outra linha “Z”.
+•	A linha que começa com “Y”, é referente ao curso que a Pessoa esta cursando, a linha “Y” vem sempre depois de uma linha “Z”, 
+logo, a linha “Y” é sobre o curso do Aluno(“Z”).
+•	Nem sempre uma linha “Z” é seguida por uma linha “Y”, significa que é uma Pessoa cadastrada, e não um aluno. Logo, após
+uma linha “Z” aparece outra linha “Z”.
 
 Linha X:
 •	Cabeçalho do arquivo
