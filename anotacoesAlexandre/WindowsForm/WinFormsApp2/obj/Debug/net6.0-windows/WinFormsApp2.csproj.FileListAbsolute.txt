@@ -1,0 +1,17 @@
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\bin\Debug\net6.0-windows\WinFormsApp2.exe
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\bin\Debug\net6.0-windows\WinFormsApp2.deps.json
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\bin\Debug\net6.0-windows\WinFormsApp2.runtimeconfig.json
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\bin\Debug\net6.0-windows\WinFormsApp2.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\bin\Debug\net6.0-windows\WinFormsApp2.pdb
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.csproj.GenerateResource.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\refint\WinFormsApp2.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.pdb
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\ref\WinFormsApp2.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp2\obj\Debug\net6.0-windows\WinFormsApp2.Form_principal.resources
