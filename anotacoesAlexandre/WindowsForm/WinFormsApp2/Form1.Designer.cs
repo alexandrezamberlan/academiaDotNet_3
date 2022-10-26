@@ -28,10 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_principal));
             this.label1 = new System.Windows.Forms.Label();
             this.textBox_nomeCompleto = new System.Windows.Forms.TextBox();
             this.button_adicionarLista = new System.Windows.Forms.Button();
             this.textBox_listaNomes = new System.Windows.Forms.TextBox();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.SuspendLayout();
             // 
             // label1
@@ -63,18 +65,29 @@
             // 
             // textBox_listaNomes
             // 
-            this.textBox_listaNomes.Enabled = false;
             this.textBox_listaNomes.Location = new System.Drawing.Point(118, 95);
             this.textBox_listaNomes.Multiline = true;
             this.textBox_listaNomes.Name = "textBox_listaNomes";
+            this.textBox_listaNomes.ReadOnly = true;
+            this.textBox_listaNomes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox_listaNomes.Size = new System.Drawing.Size(265, 343);
             this.textBox_listaNomes.TabIndex = 3;
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
             // 
             // Form_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(400, 450);
             this.Controls.Add(this.textBox_listaNomes);
             this.Controls.Add(this.button_adicionarLista);
             this.Controls.Add(this.textBox_nomeCompleto);
@@ -92,5 +105,6 @@
         private TextBox textBox_nomeCompleto;
         private Button button_adicionarLista;
         private TextBox textBox_listaNomes;
+        private PrintPreviewDialog printPreviewDialog1;
     }
 }

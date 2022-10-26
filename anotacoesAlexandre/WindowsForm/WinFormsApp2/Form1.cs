@@ -2,6 +2,9 @@ namespace WinFormsApp2
 {
     public partial class Form_principal : Form
     {
+
+        List<string> listaNomes = new List<string>();
+
         public Form_principal()
         {
             InitializeComponent();
@@ -29,10 +32,34 @@ namespace WinFormsApp2
             }
             else
             {
-                textBox_listaNomes.Text += textBox_nomeCompleto.Text.ToUpper() + Environment.NewLine;
-                textBox_nomeCompleto.Text = String.Empty;
+                //verificar se o nome já existe
+                if (listaNomes.Contains(textBox_nomeCompleto.Text.ToUpper()))
+                {
+                    MessageBox.Show("Nome já cadastrado", "ATENÇÃO");
+                }
+                else
+                {
+                    listaNomes.Add(textBox_nomeCompleto.Text.ToUpper());
+
+                    listaNomes.Sort();
+
+                    //inserir o conteúdo da lista ordenado
+                    atualizarTextBox_lista();
+
+                    textBox_nomeCompleto.Text = String.Empty;
+                }
             }
             textBox_nomeCompleto.Focus();
+        }   
+        
+        private void atualizarTextBox_lista()
+        {
+            textBox_listaNomes.Text = String.Empty;
+
+            foreach (var i in listaNomes)
+            {
+                textBox_listaNomes.Text += i + Environment.NewLine;
+            }
         }
     }
 }

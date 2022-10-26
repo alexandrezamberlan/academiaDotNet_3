@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp2\\WinFormsApp2.csproj",
-      "projectName": "WinFormsApp2",
-      "projectPath": "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp2\\WinFormsApp2.csproj",
+      "projectUniqueName": "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp3\\WinFormsApp3.csproj",
+      "projectName": "WinFormsApp3",
+      "projectPath": "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp3\\WinFormsApp3.csproj",
       "packagesPath": "C:\\Users\\alexz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp2\\obj\\",
+      "outputPath": "C:\\Users\\alexz\\academiaDotNet_3\\anotacoesAlexandre\\WindowsForm\\WinFormsApp3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexz\\AppData\\Roaming\\NuGet\\NuGet.Config",
