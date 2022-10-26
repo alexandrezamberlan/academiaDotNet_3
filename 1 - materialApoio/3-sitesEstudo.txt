@@ -17,6 +17,8 @@ Tutorial Orientação a Objetos em C# - https://www.w3schools.com/cs/cs_oop.php
 
 Documentação de classes .net -> https://docs.microsoft.com/pt-br/dotnet/api/
 
+Windows Forms -> https://learn.microsoft.com/pt-br/dotnet/desktop/winforms/?view=netdesktop-6.0
+
 Tutorial SQL - https://www.w3schools.com/sql/
 
 Tutorial ASP e ASP .Net - https://www.w3schools.com/asp/default.asp
