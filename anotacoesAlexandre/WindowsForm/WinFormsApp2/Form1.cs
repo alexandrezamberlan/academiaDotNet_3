@@ -3,7 +3,7 @@ namespace WinFormsApp2
     public partial class Form_principal : Form
     {
 
-        List<string> listaNomes = new List<string>();
+        List<Pessoa> listaPessoas = new List<Pessoa>();
 
         public Form_principal()
         {
@@ -13,52 +13,33 @@ namespace WinFormsApp2
         //metodo que trata evento de um componente
         private void button_adicionarLista_Click(object sender, EventArgs e)
         {
-            inserirTextBox_lista();
-        }
-
-        private void textBox_nomeCompleto_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Enter)
+            if (textBox_nomeCompleto.Text.Length == 0 || textBox_email.Text.Length == 0)
             {
-                inserirTextBox_lista();
+                MessageBox.Show("É necessário informar os dois campos", "ATENÇÃO");
+            } else
+            {
+                Pessoa pessoa = new Pessoa(textBox_nomeCompleto.Text, textBox_email.Text);
+                listaPessoas.Add(pessoa);
+                atualizarTextBox_listaNomes();
+                limparCampos();
             }
         }
-
-        private void inserirTextBox_lista()
+        private void limparCampos()
         {
-            if (textBox_nomeCompleto.Text.Length == 0)
-            {
-                MessageBox.Show("Para adicionar nome, é preciso digitar algo", "ATENÇÃO");
-            }
-            else
-            {
-                //verificar se o nome já existe
-                if (listaNomes.Contains(textBox_nomeCompleto.Text.ToUpper()))
-                {
-                    MessageBox.Show("Nome já cadastrado", "ATENÇÃO");
-                }
-                else
-                {
-                    listaNomes.Add(textBox_nomeCompleto.Text.ToUpper());
+            textBox_nomeCompleto.Clear();
+            textBox_email.Clear();
+        }
 
-                    listaNomes.Sort();
-
-                    //inserir o conteúdo da lista ordenado
-                    atualizarTextBox_lista();
-
-                    textBox_nomeCompleto.Text = String.Empty;
-                }
-            }
-            textBox_nomeCompleto.Focus();
-        }   
         
-        private void atualizarTextBox_lista()
+        
+        
+        private void atualizarTextBox_listaNomes()
         {
             textBox_listaNomes.Text = String.Empty;
 
-            foreach (var i in listaNomes)
+            foreach (var i in listaPessoas)
             {
-                textBox_listaNomes.Text += i + Environment.NewLine;
+                textBox_listaNomes.Text += i.Nome + Environment.NewLine;
             }
         }
     }
