@@ -76,7 +76,8 @@
             this.textBox_listaNomes.ReadOnly = true;
             this.textBox_listaNomes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox_listaNomes.Size = new System.Drawing.Size(193, 290);
-            this.textBox_listaNomes.TabIndex = 3;
+            this.textBox_listaNomes.TabIndex = 6;
+            this.textBox_listaNomes.TabStop = false;
             // 
             // printPreviewDialog1
             // 
@@ -112,7 +113,7 @@
             this.label2.Location = new System.Drawing.Point(70, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 15);
-            this.label2.TabIndex = 6;
+            this.label2.TabIndex = 0;
             this.label2.Text = "Email: ";
             // 
             // textBox_email
@@ -130,7 +131,8 @@
             this.textBox_listaEmails.ReadOnly = true;
             this.textBox_listaEmails.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox_listaEmails.Size = new System.Drawing.Size(183, 290);
-            this.textBox_listaEmails.TabIndex = 8;
+            this.textBox_listaEmails.TabIndex = 7;
+            this.textBox_listaEmails.TabStop = false;
             // 
             // textBox_listaDominios
             // 
@@ -140,13 +142,14 @@
             this.textBox_listaDominios.ReadOnly = true;
             this.textBox_listaDominios.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox_listaDominios.Size = new System.Drawing.Size(183, 290);
-            this.textBox_listaDominios.TabIndex = 9;
+            this.textBox_listaDominios.TabIndex = 8;
+            this.textBox_listaDominios.TabStop = false;
             // 
             // Form_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(892, 450);
+            this.ClientSize = new System.Drawing.Size(629, 443);
             this.Controls.Add(this.textBox_listaDominios);
             this.Controls.Add(this.textBox_listaEmails);
             this.Controls.Add(this.textBox_email);
