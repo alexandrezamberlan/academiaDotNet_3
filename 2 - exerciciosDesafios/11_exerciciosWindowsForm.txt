@@ -4,6 +4,7 @@ A interface gráfica precisa ter
 - TextBox
 - Button
 - Panel
+
 - List 
 - Classe específica
 
@@ -12,13 +13,13 @@ Ao cadastrar o nome na lista, o nome deve ser validado para que tenha no mínimo
 que não esteja na lista. Ao final, caso o nome não esteja na lista, cadastra-lo em maiúsculo e 
 exibir a lista ordenada em um componente gráfico equivalente.
 
-
 2. Fazer um programa em VS e com windows Forms.
 A interface gráfica precisa ter 
 - Labels
 - TextBox
 - Button
 - Panel
+
 - List 
 - Classe específica
 
@@ -26,8 +27,6 @@ O programa deve possuir botões (como um menu) para com cadastrar emails, listar
 Os emails digitados devem ser cadastrados em uma lista e não pode haver emails duplicados, 
 ou seja, o programa deve controlar essa situação. Quando o usuário solicitar a listagem dos emails, além dessa
 lista, o programa deve listar os domínios de emails cadastrados no programa. Para isso, usar dois componentes gráficos equivalentes.
-
-
 
 3. Fazer um programa em VS e com windows Forms.
 A interface gráfica precisa ter 
@@ -37,6 +36,7 @@ A interface gráfica precisa ter
 - Panel
 - Combo box
 - Menu
+
 - List 
 - Classe específica
 

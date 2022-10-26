@@ -1,5 +1,16 @@
 # Roteiro das Aulas
 
+## 26/10/2055
+- Windows Form
+    - componentes gráficos para desktop: Form, Label, TextBox, Button, Panel, Combo box, Menu
+    - componente é um objeto de classe
+        - aspecto estrutural -> propriedade -> característica -> atributo (nome, texto, posição, tamanho, visibilidade, )
+        - aspecto funcional  -> evento                        -> método (maximizar, minimizar, clicar, desclicar, pressionar, ...)
+
+    - Ferramenta gestora de componentes gráficos (ARRASTAR E SOLTAR): 
+        - caixa para as propriedade de um componente
+        - caix para os eventos do componente
+
 ## 19/10/2055
 - Práticas com OO, Listas e Manipulação de arquivos (plain text)
     - StreamReader
