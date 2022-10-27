@@ -4,10 +4,10 @@ um rótulo, uma tabela contendo informações diversas, uma imagem que ilustre o
 para uma outra página HTML.
 Este site, deverá ter alguns requisitos básicos:
 1) Deverá possuir uma pagina inicial, com uma imagem de fundo, e com navegação com outras páginas
-2) A página deverá ter estilos para componentes, de sua preferência. //ainda não
+2) A página deverá ter estilos para componentes, de sua preferência. <!-- ainda não  -->
 3) Deverá possuir um formulário que contenha campos para preenchimento pelo usuário.
-4) Deverá possuir uma tabela com informações (utilizando estilos).
-5) No CSS, utilize classes e/ou ID. //ainda não
+4) Deverá possuir uma tabela com informações (utilizando estilos). <!-- ainda não -->
+5) No CSS, utilize classes e/ou ID. <!-- ainda não -->
 6) O site deverá possuir pelo menos 3 páginas (apresentação, formulário e mais alguma outra página).
 
 Links para pesquisa: 
