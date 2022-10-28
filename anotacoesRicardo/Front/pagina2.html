@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <title>Contato</title>
+</head>
+<body>
+   <!---->  <p>Informações para contato com a empresa:</p>
+    <form name = "contato" action = "realizado.html" method = "post">
+        <h1 class ="labelForm">Nome:</h1> <input type="text" name ="nome"/>
+        <br>
+        <h1 class ="labelForm">Sobrenome:</h1> <input type="text" name ="sobrenome"/>
+        <br>
+        <h1 class ="labelForm">Celular:</h1><input type="tel" name ="telefone"/>
+        <br>
+        <h1 class ="labelForm">CPF:</h1> <input type="text" name ="cpf"/>
+        <br>
+        <h1 class ="labelForm">Data de nascimento:</h1> <input type = "date" name = "datanasc"/>
+        <br>
+        <h1 class ="labelForm">Senha:</h1> <input type="password" name ="senha"/>
+        <br>
+        <h1 class ="labelForm">Sexo:</h1> 
+        Masculino <input type="radio" name="sexo" value="masculino">
+        Feminino <input type="radio" name="sexo" value="feminino">
+        Neutro <input type="radio" name="sexo" value="neutro">
+        Prefiro não informar <input type="radio" name="sexo" value="ninf" >
+
+
+        <h1 class ="labelForm">Moro com:</h1> 
+        Meus pais <input type="checkbox" name ="pais" > 
+        Meus cachorros <input type="checkbox" name ="dogs">
+        Meus gatos <input type="checkbox" name ="cats" >
+        <br>
+        <input type="submit" value="Enviar mensagem">
+        
+    </form>
+</body>
+</html>

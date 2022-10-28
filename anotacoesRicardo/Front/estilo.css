@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(209, 175, 134);
+    background-image:url("imgs/img.jpg");
+    background-attachment: scroll;
+}
+div{
+    background-color: gray;
+}
+p{
+    color:rgb(3, 3, 50);
+}
+h1{
+    color:black;
+    font-variant: normal;
+    letter-spacing: 6px;
+}
+h2{
+    color:black;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+h3{
+    color:black;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+h4{
+    color:black;
+    font-variant: small-caps;
+    text-decoration: overline;
+}
+h5{
+    color:black;
+    font-variant: small-caps;
+    text-decoration: line-through;
+}
+h6{
+    color:black;
+    font-style: italic;
+    text-decoration: underline;
+}
+#riesling{
+    color:blueviolet;
+    text-transform: uppercase;
+}
+a{
+   color:rebeccapurple 
+}
+a:link{
+    color:cadetblue
+}
+a:visited{
+    color:coral
+}
+a:hover{
+    text-transform: lowercase;
+}
+
+.branco{
+    color:green;
+}
+.tinto{
+    color:red;
+}
+
+a.branco:hover{
+    text-transform: uppercase;
+}
+a.branco{
+    color:green;
+}
+a.tinto{
+    color:red;
+}
+
+#c1-2{
+    color:red;
+}
+
+#c2{
+    color:darkgoldenrod;
+}
