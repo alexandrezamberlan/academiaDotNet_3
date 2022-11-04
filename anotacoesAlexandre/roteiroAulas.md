@@ -1,6 +1,17 @@
 # Roteiro das Aulas
 
-## 26/10/2055
+## 04/11/2022
+- Windows Form:
+    - Exercícios
+    - Vídeo apoio: https://youtu.be/JgBqsIffWdU
+        - Sistema de Cadastro de Jogadores - nome completo
+            - valida se o nome já está ou não na base de dados (lista + arquivo)
+            - gera o email a partir do sobrenome e do primeiro nome da pessoa + @ufn.edu.br
+            - transforma para maiúsculo
+            - persiste em base de dados (lista + arquivo)
+            - conecta com a base de dados (primeira execução)
+
+## 26/10/2022
 - Windows Form
     - componentes gráficos para desktop: Form, Label, TextBox, Button, Panel, Combo box, Menu
     - componente é um objeto de classe
@@ -11,14 +22,14 @@
         - caixa para as propriedade de um componente
         - caix para os eventos do componente
 
-## 19/10/2055
+## 19/10/2022
 - Práticas com OO, Listas e Manipulação de arquivos (plain text)
     - StreamReader
     - StreamWriter
     - Classe Utilidade -> métodos de classe para alguns serviços...
     - Classe da Regra do Negócio 
 
-## 05/10/2055
+## 05/10/2022
 - Orientação a Objetos 
     - https://www.w3schools.com/cs/cs_oop.php
     - https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/oop
