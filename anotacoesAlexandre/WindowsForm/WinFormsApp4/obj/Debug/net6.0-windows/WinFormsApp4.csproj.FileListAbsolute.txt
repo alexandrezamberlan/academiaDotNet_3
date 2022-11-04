@@ -1,0 +1,17 @@
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\bin\Debug\net6.0-windows\WinFormsApp4.exe
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\bin\Debug\net6.0-windows\WinFormsApp4.deps.json
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\bin\Debug\net6.0-windows\WinFormsApp4.runtimeconfig.json
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\bin\Debug\net6.0-windows\WinFormsApp4.dll
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\bin\Debug\net6.0-windows\WinFormsApp4.pdb
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.csproj.AssemblyReference.cache
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.csproj.GenerateResource.cache
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.AssemblyInfoInputs.cache
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.AssemblyInfo.cs
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.csproj.CoreCompileInputs.cache
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.dll
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\refint\WinFormsApp4.dll
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.pdb
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.genruntimeconfig.cache
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\ref\WinFormsApp4.dll
+C:\Users\laboratorio\Downloads\academiaDotNet_3\anotacoesAlexandre\WindowsForm\WinFormsApp4\obj\Debug\net6.0-windows\WinFormsApp4.Form_principal.resources
