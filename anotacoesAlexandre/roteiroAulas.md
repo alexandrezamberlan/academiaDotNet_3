@@ -1,4 +1,20 @@
 # Roteiro das Aulas
+## 08/11/2022
+- Banco de Dados
+    - SGBD
+        - Cardinalidades
+    - SQL
+        - DDL
+        - DML
+    - Framework para Mapeamento Objeto-Relacional (ORM ou MOR)
+        - Antigamente, o foco do sistema era o banco de dados
+        - Atualmente, o foco são as funcionalidades
+            - Teoria da Orientação a Objetos
+                - Classe, métodos, atributos
+                - Processo chamado MOR: das classes são geradas as tabelas de forma automática
+
+        - Exceção:
+            Sistemas Legados: o caminho é do banco (tabelas) para as classes (orientação a objetos)
 
 ## 04/11/2022
 - Windows Form:
