@@ -104,7 +104,7 @@ Finalmente, execute os comandos no shell do Management Studio:
         --Upper - 		força caracteres minúsculos aparecerem em maiúsculos.
         --Concat(x,y)- 		concatena a string 'x' com a string 'y'.
         --Substring(x,y,str)- 	extrai um substring da string 'str', começando em 'x', e termina em 'y'.
-        --To_Char(num)- 		converte um valor numérico para  uma string de caracteres.
+        --To_Char(num)- 	converte um valor numérico para  uma string de caracteres.
         --To_Date(char,fmt)- 	converte uma string caracter em uma data.
 
 
