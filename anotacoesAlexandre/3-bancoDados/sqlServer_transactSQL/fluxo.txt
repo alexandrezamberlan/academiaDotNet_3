@@ -1,0 +1,15 @@
+Fluxo de projeto, criação de banco de dados:
+
+1) executar o sql server management no computador;
+2) executar um ambiente de shell específico
+3) criar database ou esquema 
+4) ativar/usar o database
+5) criar tabela
+6) definir restrições da tabela: chave primária; chave estrangeira; 
+                                 atualização e deleção
+7) aplicar insert
+8) aplicar update
+9) aplicar delete
+10) aplicar alter table 
+
+11) testar select
