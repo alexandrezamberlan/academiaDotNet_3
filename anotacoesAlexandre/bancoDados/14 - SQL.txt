@@ -1,0 +1,19 @@
+No contexto de Banco de Dados e Sistema Gerenciador de Banco de Dados (SGBD) relacional:
+    - só para lembrar - o que é um BD Relacional?
+        - composto por entidades (tabelas) que se relacionam entre si via chave primária-estrangeira
+        - pode ser visualizado como um grafo, ou seja, de uma tabela/entidade é possível chegar a outra,
+          desde que haja relacionamento (caminho) 
+
+    - a linguagem de definição e manipulação de dados é a SQL (Structed Query Language)
+        - os SGBDs possuem suas versões de SQL: MySQL; PostGree; SQL Server; Oracle
+        - ANSI é o equivalente brasileiro da ABNT, fornecendo padrões para linguagens, bancos, e não 
+          somente na área da computação
+        - DDL: Data Definition Language
+            - dababases - create, alter e drop
+            - tables - create e drop
+
+        - DML: Data Manipulation Language
+            - tables - update, insert, select, delete, ...
+            - select 
+                - cálculo relacional: projeções, seleções, produto cartesiano, união, intersecção, divisão, subtração
+

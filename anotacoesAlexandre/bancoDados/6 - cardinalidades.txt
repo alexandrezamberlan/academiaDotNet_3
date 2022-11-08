@@ -1,0 +1,59 @@
+Cardinalidade n:n
+
+Engenheiro(codEngenheiro, nome).    
+    codEngenheiro chave primária
+
+Projeto(codProjeto, titulo). 
+    codProjeto chave primária
+
+Atuacao(codEngenheiro, codProjeto, funcao).
+    codEngenheiro e codProjeto formam chave primária
+    codEngenheiro referencia Engenheiro
+    codProjeto referencia Projeto    
+
+Medico(codMedico, nome). 
+    codMedico chave primária
+
+Paciente(codPaciente, nome).
+    codPaciente chave primaria
+
+Consulta(codMedico, codPaciente, data, hora).
+    codMedico, codPaciente, data e hora formam chave primária
+    codMedico referencia Medico
+    codPaciente referencia Paciente
+
+===========================
+Cardinalidade 1:n
+
+Curso(codCurso, nome).  
+    codCurso chave primária
+
+Aluno(codAluno, nome, codCurso).
+    codAluno chave primária
+    codCurso referencia Curso
+
+Aluno 1..n ---- 1..1 Curso
+
+Financeira(codFinanceira,nome).
+    codFinanceira chave primária
+
+Venda(codVenda, codFinanceira, numeroParcelas, taxaJuro).
+    codVenda chave primária
+    codFinanceira referencia Financeira
+
+====
+Grupo(codGrupo, Nome). 
+    codGrupo chave primária
+
+Empresa(numeroEmpresa, codGrupo).    
+    numeroEmpresa chave primaria
+    codGrupo referencia Grupo (fk)
+
+Filial(numeroFilial, codEmpresa).
+    numeroFilial chave primaria 
+    codEmpresa referencia Empresa (fk)
+
+
+Grupo 1..1 ----- 1..n Empresa 
+
+Empresa ----- n Filial

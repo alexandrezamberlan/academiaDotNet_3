@@ -1,0 +1,99 @@
+CASE - Computer Aided Software Engeneering
+    - geradores de SQL do MySQL Workbench
+    - frameworks de Mapeamento Objeto Relacional 
+
+
+Sistema de Gestão de Projetos COMIC recebe projetos na área da Saúde, avalia e acompanha projetos que desejam ocupar
+os hospitais escola da UFN.
+
+O sistema possui gestão básica: 
+usuários (matrícula, nome, curso, instituição, tipo, ...); 
+curso (código, nome, área, ... );
+instituição (código, nome, sigla, ...). 
+Todo usuário está ligado a um curso e a uma instituição no mínimo. Pode ser
+que um usuário esteja associado a mais de um curso; 
+edital (ano, semestre e descrição).
+
+Todo usuário precisa ser associado a um tipo (aluno, professor ou administrador). 
+Somente usuários professores podem
+submeter projetos (regra do negócio, fica na camada do negócio). 
+
+Aluno pode ser associado a um projeto. Um projeto pode ter um professor responsável e n professores
+colaboradores. Um projeto deve ter um aluno associado.
+
+Somente professor pode submeter/cadastrar 
+um projeto (edital, professor responsa'vel, professores colaboradores,
+aluno, título, resumo, qual hospital de execução do projeto; ....). 
+
+Um projeto deve estar associado a um edital já
+cadastrado.
+
+Uma vez que o projeto for cadastrado, o administrador associa dois professores avaliadores (regra do negócio)
+para o julgamento do projeto. A avaliação contém dados da submissão, professor 
+avaliador 1, professor avaliador 2.
+parecer avaliador 1, parecer avaliador 2, nota avaliador 1, nota avaliador 2, ....
+
+Há uma comissão (COMIC) que a partir das avaliações julgam os pareceres. 
+Todo parecer tem uma relação com uma ação
+da comissão. Ou seja, uma avaliação deve ter um parecer geral do comitê. O comitê, ao gerar um parecer geral, 
+precisa estar associado a uma data de parecer, texto de justificativa, arquivo de ofício, status (aprovado,
+reprovado, pendente).
+
+A partir dessa descrição, construir os 3 modelos:
+- Conceitual - ASTAH com Diagrama de Classes
+- Lógico - para visualização dos relacionamentos via atributos
+- Físico - MySQL Workbench
+
+
+============
+Sugestão de Modelo Conceitual (cardinalidade, logo como se dá as visitas) e Lógico (quantidade de tabelas)
+Curso 1..n --- 0..n Usuario
+Intituicao 1..1 --- 0..n Usuario
+Projeto 0..n --- 1..1 UsuarioAluno
+Projeto 1..n -- 1..1 UsuarioResponsavel
+Projeto 0..n -- 0..n UsuarioColaborador
+Projeto 1..1 -- 1..1 Avaliacao
+Avaliacao 1..1 -- 1..1 Comissao
+
+Curso(codCurso, nome, area).
+    codCurso chave primária
+
+Instituicao(codInstituicao, nome, sigla). 
+    codInstituicao chave primária
+
+Usuario(matricula, nome, codInstituicao, tipo).
+    matricula chave primária
+    codInstituicao referencia Instituicao
+
+Usuario_Curso(matricula,codCurso).
+    matricula chave primária
+    codCurso chave primária
+    matricula referencia Usuário
+    codCurso referencia Curso
+
+Edital(codEdital, ano, semestre, descricao).
+    codEdital  chave primária
+
+Projeto(codProjeto, codEdital, codProfessorResponsavel, codAluno, titulo, resumo, localExecucao)
+    codProjeto chave primária
+    codEdital referencia Edital
+    codProfessorResponsavel (matricula) referencia Usuario
+    codAluno (matricula) referencia Usuario
+
+UsuarioColaborador_Projeto(matricula, codProjeto).
+    matricula e codProjeto são chave primária
+    matricula referencia Usuario
+    codProjeto referencia Projeto
+
+Avaliacao(codProjeto, codAvaliador1, codAvaliador2, notaAvaliador1, notaAvaliador2).
+    codProjeto chave primária
+    codProjeto referencia Projeto
+    codAvaliador1 (matricula) referencia Usuario 
+    codAvaliador2 (matricula) referencia Usuario 
+
+Comissao(data, hora, codAvaliacao, parecer, arquivoOficio, status)
+    codAvaliacao chave primária
+    codAvaliacao (codProjeto) referencia Avaliacao
+
+
+

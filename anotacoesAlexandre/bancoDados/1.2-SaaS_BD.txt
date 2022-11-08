@@ -1,0 +1,24 @@
+Sistema computacional de gestão de conhecimento
+  - Sistema Web/Móvel
+    - Arquitetura Cliente-Servidor: 
+      - Parte do sistema está na nuvem em uma máquina dita SERVIDORA
+        - Serviços em um Sistema Operacional robusto
+          - Liberar o produto/serviço específico (por exemplo, vídeos da netflix, ou a relação de jogadores, de técnicos, de times, tabela de classificação, anos de competição)
+            - Servidores: banco de dados (SGBD); http; https; ssh; proxy; firewall; balanceamento de carga; backup; escalonamento; ...
+              - SGBD:
+                - dependente do SO 
+                - acesso à Internet
+                - linguagem de manipulação -> SQL -> create, drop, insert, update, select
+                - funcionalidades de segurança: criptografia, backup, ...; gestões de transações; 
+
+                máquina(s)/hardware -> sistema operacional -> serviços -> SGBD -> banco de dados -> arquivos 
+
+      - Parte do sistema está em dispositivos móveis, ou desktops, ou notebooks com acesso via serviço HTTP (browser)
+
+
+Empresa de desenvolvimento de software
+  - Produto: CD, pendrive, arquivo .zip
+    - Problema: atualização, manutenção, suporte,
+
+  - Serviço: SaaS - Software as a Service - Software como Serviços
+    - Vantagem sobre software como produto: 

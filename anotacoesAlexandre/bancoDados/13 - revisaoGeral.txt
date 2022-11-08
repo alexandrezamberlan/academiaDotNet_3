@@ -1,0 +1,67 @@
+Banco de Dados Relacional
+    - Estrutura em forma de arquivo(s) para armazenar dados em tabelas com relações entre si.
+    - Todo banco de dados precisa de um gerenciador, conhecido como SGBD e uma linguagem específica (construção e manipulação)
+        - SGBD + linguagem dão condições para o banco ser:
+            - construído: Data Definion Language - DDL -> create, drop, ...
+            - manipulado: Data Manipulation Language - DML -> select, insert, update, delete
+
+    - Nas fases iniciais de construção do banco de dados
+        - modelagem conceitual: entidades, atributos e relacionamentos
+        - modelagem lógica: transformação de entidades em tabelas; definição de atributos chaves (primária e estrangeira);
+                            definição dos relacionamentos (1..;1..n;n..m), com isso auxiliando na 
+                            definição de tabelas e chaves estrangeiras
+        - modelagem física: é uma extensão da modelagem lógica, mas focada na linguagem SQL, pensando em tipos dos dados, 
+                            restrições (estruturais e funcionais), como de integridade, de chave estrangeira, ...
+
+    - No processo de engenharia, da modelagem até o banco de dados criado em um SGBD, há boas práticas a seguir:
+        - menos é mais, ou seja, quando possível, manter dados em mesma tabela, ou em um número reduzido de tabelas
+        - evitar, quando der, atributos nulos
+        - cuidar redundância
+
+    - Há um conceito teórico-formal para consultas em banco: ÁLGEBRA Relacional
+        - Projeções - Pi minúsculo
+            - é uma seleção em que se quer visualizar atributos de tabela(s) sem filtro
+            
+            select Usuario.nome, Usuario.email
+            from Usuario
+
+        - Seleções - Sigma minúsculo
+            - é uma consulta em que se quer projetar algo com filtro
+
+            select Usuario.nome, Usuario.email
+            from Usuario
+            where Usuario.sexto = 'Masculino'
+
+        - Uniões
+            - é uma operação lógica tipo OR
+
+            select Usuario.nome, Usuario.email
+            from Usuario
+            where Usuario.sexto = 'Masculino' or Usuario.dataNascimento < '10/03/1974'
+
+        - Interseções
+            - é uma operação lógica tipo AND 
+
+            select Usuario.nome, Usuario.email
+            from Usuario
+            where Usuario.sexto = 'Masculino' and Usuario.dataNascimento < '10/03/1974'
+
+        - Produto cartesiano
+            - é uma operação de relacionamento entre tabelas, para verificar se um mesmo dado aparece nas tabelas
+
+
+            select Aeroporto.nome, Aeroporto.tipo
+            from Cidade, Aeroporto
+            where Cidade.nome = 'São Paulo' and 
+                  Cidade.idCidade = Aeroporto.idCidade and
+                  Aeroporto.tipo = 'Internacional'
+
+        - Junção
+            - é uma função que substitui a operação de produto cartesiano. Dependendo do SGBD essa função pode 
+              ter comportamento de processamento paralelo
+
+            select Aeroporto.nome, Aeroporto.tipo
+            from  Aeroporto
+            inner join Aeroporto on Cidade.idCidade = Aeroporto.idCidade
+            where Cidade.nome = 'São Paulo' and 
+                  Aeroporto.tipo = 'Internacional'

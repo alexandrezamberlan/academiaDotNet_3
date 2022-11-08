@@ -1,0 +1,46 @@
+Paciente(codPaciente, nome, email). 
+    codPaciente e email são chave primária
+
+Paciente(100,alex, alex@ufn.edu.br)
+Paciente(101,lucas, lucas@ufn.edu.br)
+
+
+Medico(codMedico, nome). 
+    codMedico é chave primária
+
+Medico(1,diego)
+
+Consulta(codMedico, codPaciente, email, data). 
+
+Consulta(1,100,alex@ufn.edu.br,25/04/2021). 
+Consulta(1,100,alex@ufn.edu.br,23/04/2021). 
+Consulta(1,100,alex@ufn.edu.br,15/04/2021). 
+Consulta(1,101,lucas@ufn.edu.br,25/04/2021). 
+
+
+Restrições de Integridade (garantir que não se tenha inconsistência)
+    - duplicidade de dados -> chave primária e chave estrangeira (referencial)
+    - campos opcionais/nulos
+
+
+
+aluno(codigo, nome, codCurso, matricula, tipo, endereco).
+aluno(100, ..., null)
+aluno(101, ..., null)
+aluno(102, ..., null)
+aluno(103, ..., null)
+aluno(104, ..., regina)
+
+pessoa(codPessoa, tipo, nome,cpf, cnpj, descricao).
+pessoa(1,fisica,alexandre,999,_,_).
+pessoa(2,juridica,_,_,9888,UFN).
+
+venda(codPessoa, numeroParcelas, data, valor).
+venda(2,1,20/4/2021,1000).
+
+
+
+
+
+
+

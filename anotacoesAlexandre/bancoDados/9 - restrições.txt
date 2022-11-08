@@ -1,0 +1,43 @@
+Restrições em Banco de Dados
+    - modelagem
+
+Restrição? 
+    é algo impeditivo!
+        - estrutural - de atributo -> SGBD pode resolver
+        - funcional - de método -> camanda de controle (programa)
+        - ...
+        - no universo de banco de dados há outras restrições    
+            - integridade -> chave primária (pode ser um atributo, mas podem ser n atributos)
+                - chave primária deve garantir:
+                    - unicidade na tabela
+                - referencial - como chave estrangeira em outra tabela
+                    tabela Origem (chave primária) -----> tabela Destino (chave estrangeira, contudo esta chave estrangeira
+                    não precisa ser chave primária na tabela Destino)
+
+                - chave primária = primary key (pk)
+                - chave estrangeira = foreign key (fk)
+
+Exemplo
+
+Paciente n ---- n Medico
+
+Paciente(codPaciente, nome). 
+    codPacidente é chave primária
+
+Medico(codMedico, nome).
+    codMedico é chave primária 
+
+Consulta(codPaciente, codMedico, data). 
+    codPaciente, codMedico e data formam a chave primária
+
+Restrições:
+    - hard constraints: restrições fortes == estruturais
+
+    - soft constraints: restrições brandas == funcionais
+
+
+Inteligência Artificial:
+    - Complexidade == esforço 
+        - diretamente relacionada: restrições e heurísticas
+        - como programador, tratar restrições e criar heurísticas pode ser
+          atividades alta complexidade

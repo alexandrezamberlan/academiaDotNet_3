@@ -1,0 +1,48 @@
+Sistema de automação residencial para climatização e iluminação associado com minicomputadores
+Raspberry Pi e relés de acionamento. Cada Raspberry Pi será responsável por uma peça na residência ou
+escritório (unidade). Uma unidade pode ser uma casa, um escritório, um salão de belez, ... A unidade
+é composta por peças (quarto 1, sala de estar, cozinha, sala de janta).
+
+O sistema de automação possui 2 subsistemas: um web de gestão de perfis de usuários versus unidade/peças;
+um acionamento inteligente feito em JASON.
+
+Dessa forma, vamos modelar e implementar (MySQL Workbech) o banco de dados do sistema web para gestão
+de perfis.
+
+O sistema deve contemplar gestão de:
+ - usuario: codigo, nome, email, tipo (administrador e comum)
+ - unidade: codigo, descrição, categoria (residencia, empresa, industria), usuarios (lista)
+ - peça: codigo, descrição, unidade 
+ - peca-usuario (perfil): peça, usuário, estação (verão, inverno, outono, primavera), turno (manhã,
+ tarde e noite), temperatura, nível de iluminação (fraca, média e forte).
+
+ apto, quarta dormir casal, alexandre, outono, manha, 23, fraca 
+ apto, sala de estar, alexandre, outono, manha, 20, fraca
+
+Usuario(100, alexandre, alex@ufn.edu.br, administrador).
+Usuario(101, dante, alex@ufn.edu.br, comum).
+Usuario(102, simone, simone@ufn.edu.br, comum).
+Usuario(103, zottele, zo@ufn.edu.br, administrador).
+
+Unidade(1, apto em SM, residência).
+Unidade(2, escritório em SM, escritório).
+Unidade(3, casa em CA, residência).
+Unidade(4, apto em SM, residência).
+
+Usuario_Unidade(100, 1).
+Usuario_Unidade(100, 2).
+Usuario_Unidade(101, 1).
+Usuario_Unidade(103, 2).
+Usuario_Unidade(102, 1).
+
+Peca(500, quarto casal, 1).
+Peca(501, quarto casal, 3).
+Peca(502, sala de estar, 1).
+Peca(503, sala de estar, 3).
+Peca(504, sala de expera, 2).
+
+
+Perfil(1000, verao, manha, 26, fraca, 500, 100).
+Perfil(1001, verao, noite, 24, desligada, 500, 100).
+Perfil(1002, inverno, manha, 20, fraca, 500, 100).
+Perfil(1003, inverno, noite, 22, desligada, 500, 100).

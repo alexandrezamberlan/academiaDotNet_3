@@ -1,0 +1,72 @@
+SISTEMAS COMPUTACIONAIS
+  - DE INFORMAÇÃO: sistemas para armazenar dados, controlar históricos, realizar pesquisas/consultas
+  - DE CONHECIMENTO: é tudo que um sistema de informação é, mais a gestão de reconhecimento de padrões -> tomada decisão
+  
+  - COMPOSTO POR 2 PARTES:
+    - Aspectos Funcionais: funcionalidades ou o comportamento do sistema -> Orientação a Objetos = Classes e Métodos
+    - Aspectos Estruturais: estruturas de dados, interfaces, -> Orientação a objetos = Classes e atributos -> BANCO DE DADOS
+
+==============================================================  
+CRUD - Create, Retrieve, Update, Delete
+  - Item(codigoItem, descrição, categoria, preço)
+    - Livro
+    - Vestuário
+    - Games player
+    - Games jogo (cd ou dvd)
+    - Bonecos
+    - Canecas
+
+  Exemplo: item.txt ou item.dat 
+  1;toca flash;vestuário;100
+  2;senhor batata darth vader;boneco;25
+
+    
+  - Amigo(codigoAmigo, nome, apelido, fone, endereço, ....)
+  
+  Exemplo: amigo.txt ou amigo.dat
+  10;Flavia Falotico;flavinha,86868949, rua ...
+  11;Douglas Santos;dodo; 969696999, rua...
+
+
+  - Emprestimo(codigoAmigo, codigoItem, dataEmprestimo, dataLimite, dataDevolucao)
+  Exemplo: emprestimo.txt ou emprestimo.dat
+  10;1;31/05/2022;07/06/2022;null
+  12;4;31/05/2022;07/06/2022;null
+
+
+  Sistema Gerenciador de Banco de Dados - SGBD
+  Segurança
+  Garantia de Integridade
+  Garantia de Consistência
+  Garantia de Transação 
+
+================================================
+
+ENGENHARIA DE SOFTWARE
+  O QUE FAZER
+  FASES DE:
+    - ANÁLISE/LEVANTAMENTO DE REQUISITOS - funcionalidades
+    - MODELAGEM/DESENHO - 
+    - PROJETO 
+    - CODIFICAÇÃO - nossa área de atuação
+    - TESTES - nossa área de atuação
+  
+PROJETO DE SOFTWARE
+  METODOLOGIA DE CONSTRUÇÃO - COMO FAZER, QUANDO FAZER E QUEM VAI FAZER
+    - Exemplos:
+      - Cascata
+      - RUP
+      - Ágeis: XP, Scrum, FDD
+
+FRAMEWORKS
+  Model View Controller (MVC)
+    - Model: camada de persistência ou dados 
+      - Orientação a objetos mapeada em Banco de Dados 
+        (Mapeamento Objeto Relacional - MOR ou Object Relational Mapping - ORM)
+          - Entity
+    
+    - Controller: regra de negócio do sistema
+      - 'serviço' de comunicação/interação entre a camada model (OO + BD)
+    
+    - View: parte do usuário - front-end
+      - interação com o usuário (gráfica em desktop; gráfica em smartphone; gráfica em WEB)
