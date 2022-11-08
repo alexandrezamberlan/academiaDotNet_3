@@ -33,7 +33,8 @@ Vamos retomar a modelagem Orientada a Objetos -> de certa forma, é o que conduz
 
     - Toda CLASSE equivale a uma ENTIDADE -> TABELA
     - Todo ATRIBUTO na OO equivale a um ATRIBUTO no model Entidade-Relacional (ER) -> COLUNA
-    - Todo o RELACIONAMENTO equivale a um RELACIONAMENTO no modelo Entidade-Relacional (ER) -> CHAVE ESTRANGEIRA
+    - Todo o RELACIONAMENTO equivale a um RELACIONAMENTO no modelo Entidade-Relacional (ER) 
+        -> CHAVE ESTRANGEIRA
         - associação; dependência; composição; agregação
         - herança
         - cardinalidade acontece tanto na OO quanto no modelo ER        

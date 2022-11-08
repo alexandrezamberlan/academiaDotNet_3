@@ -1,4 +1,7 @@
-SQL Server - SQL
+SQL Server - tSQL
+	- tSql ou Sql é uma linguagem associada a SGBD para:
+		- Definição de Dados em BD (DDL) -> create table, alter table, drop table, constraints
+		- Manipulação de Dados em BD (DML) -> select, insert, delete, update  
 
 #Mostrar todas as bases de dados
 
@@ -24,6 +27,8 @@ CREATE TABLE nomeTabela (
 	PRIMARY KEY (identificador));
 
 =====================	
+
+DML
 #Mostrar todas as tabelas da base de dados
 
 SELECT TABLE_NAME
