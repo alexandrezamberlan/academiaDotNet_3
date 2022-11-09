@@ -1,4 +1,91 @@
 # Roteiro das Aulas
+
+## 09/11/2022
+ - Banco de Dados -> SGBD -> SQL
+    BD -> conjunto de tabelas em arquivo
+    SGBD -> gerente do BD: integridade; consistência; transações
+         -> chave primária (um atributo ou muitos)
+         -> chave estrangeira (um atributo ou muitos)
+
+         -> Observação: evitar no máximo que chave estrangeira seja chave primária.....
+    SQL -> Sql Server (BD e SGBD da Microsoft) -> transact SQL
+        -> DDL: create database, drop database, alter, create table, alter table, drop table
+        -> DML: * insert into values
+                * select columns
+                  from tables
+                  where
+                 order by
+                * update table
+                  set column
+                  where
+                * delete from table
+                  where
+
+                  
+
+
+
+
+Departmento(codDepartamento, nome)
+Empregado(codEmpregado,nome, codDepartamento)
+
+Departamento 1..1 ------- 0..n Empregado
+
+1  -> n -> a chave estrangeira vai para o lado do n
+====================
+
+Professor(codProfessor, nome)
+Curso(codCurso, nome)
+ProfessorCurso(codProfessor, codCurso, ...)
+
+Professor 1..n ------- 1..n Curso
+
+n -> n -> criação de uma terceira tabela/classe que terá no mínimo as duas chaves primárias das tabelas
+
+Desenhista(codDesenhista, nome, codMesa)
+Mesa(codMesa, lugar, tipo)
+
+Desenhista 1..1 ---- 1..1 Mesa
+
+1 -> 1 -> tanto faz o lugar da chave estrangeira ou juntar numa tabela unica
+
+
+Professor 1..n  --- 1..n Curso
+
+Professor
+Curso
+ProfessorCurso
+
+Curso 1..n --- 1..n Disciplinas
+Disciplina
+CursoDisciplina
+
+Aluno 1..n --- 1..n Curso
+Aluno
+AlunoCurso
+
+Turma: Aluno 0..n --- 1..n Disciplina
+AlunoDisciplina(codAluno, codDisciplina, ano, semestre)
+AlunoDisciplina(1,15)
+AlunoDisciplina(1,15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 08/11/2022
 - Banco de Dados
     - SGBD
