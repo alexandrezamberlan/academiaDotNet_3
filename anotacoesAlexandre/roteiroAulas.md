@@ -1,5 +1,14 @@
 # Roteiro das Aulas
 
+## 11/11/2022
+    - Windows Forms + ADO.Net
+        - Exemplo do Ricardo e do Fabrício -> CRUD + string conexão + sqlinjection
+        - Exemplos do Alexandre - CRUD + string conexão
+    - Atividade:
+        1) refazer o sistema da glicemia com crud completo (paciente e medidas de glicemia)
+        2) refazer o sistema do usuário (usuário + email)
+        3) acompanhar o Alexandre no passo-a-passo
+
 ## 09/11/2022
  - Banco de Dados -> SGBD -> SQL
     BD -> conjunto de tabelas em arquivo
