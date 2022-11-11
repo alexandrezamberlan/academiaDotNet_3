@@ -1,0 +1,51 @@
+Conectando com BD manualmente - https://www.youtube.com/watch?v=H0ZcSyl0xws
+
+0. SQL Server Management Studio - Ter uma base de dados criada
+
+1. Visual Studio -> criar projeto Windows Form, renomear nome e titulo/texto
+
+2. Visual Studio -> Tools -> Conect DataBase -> SPI01DT01\SQLEXPRESS (nome do servidor da máquina do professor)
+
+3. No arquivo App.config -> adicionar string de conexão (Caso o arquivo não exista, criá-lo)
+<connectionStrings>
+    <add name="GlicemiaDBString"
+        connectionString="Data Source=localhost\SQLEXPRESS;
+        Initial Catalog=glicemia_db;
+        TrustServerCertificate=True;
+        Integrated security=True"/>
+</connectionStrings>
+  
+==========
+4. Visual Studio -> janela do NuGet, selecionar Browser -> digitar  Microsoft.Data.SqlClient -> confirmar instalação
+
+5. No Form, adicionar ListView, renomear nome, na propriedade view setar para details
+
+6. No ListView dentro do Form, com botão direito adicionar as colunas da tabela que será trazida
+
+7. Criar um objeto string global no Form
+private string conexaoString = ConfigurationManager.ConnectionStrings["GlicemiaDBString"].ConnectionString;
+
+8. No fonte Form, adicionar duas bibliotecas
+using System.Configuration;
+using Microsoft.Data.SqlClient;  
+
+9. No evento de Load do Form ou em evento de botão conectar
+
+SqlConnection conexao = new SqlConnection(conexaoString);
+conexao.Open();
+string sqlTexto = "SELECT idMedidaGlicemia, valorGlicemia, dataMedida, idPaciente FROM MedidaGlicemia";
+SqlCommand comando = new SqlCommand(sqlTexto, conexao);
+
+listView_medidasGlicemias.Items.Clear();
+SqlDataReader leitor = comando.ExecuteReader();
+int i = 0;
+while (leitor.Read())
+{
+    listView_medidasGlicemias.Items.Add(leitor["idMedidaGlicemia"].ToString());
+    listView_medidasGlicemias.Items[i].SubItems.Add(leitor["valorGlicemia"].ToString());
+    listView_medidasGlicemias.Items[i].SubItems.Add(leitor["dataMedida"].ToString());
+    listView_medidasGlicemias.Items[i].SubItems.Add(leitor["idPaciente"].ToString());
+    i++;
+}
+
+conexao.Close();

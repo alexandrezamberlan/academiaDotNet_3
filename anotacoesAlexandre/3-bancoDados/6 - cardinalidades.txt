@@ -6,6 +6,8 @@ Engenheiro(codEngenheiro, nome).
 Projeto(codProjeto, titulo). 
     codProjeto chave primária
 
+Engenheiro 1..n ---- 0..n Projeto
+
 Atuacao(codEngenheiro, codProjeto, funcao).
     codEngenheiro e codProjeto formam chave primária
     codEngenheiro referencia Engenheiro
@@ -16,6 +18,8 @@ Medico(codMedico, nome).
 
 Paciente(codPaciente, nome).
     codPaciente chave primaria
+
+Medico 1..n ----- 0..n Paciente    
 
 Consulta(codMedico, codPaciente, data, hora).
     codMedico, codPaciente, data e hora formam chave primária
