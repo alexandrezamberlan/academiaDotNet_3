@@ -15,10 +15,7 @@ namespace AtosEntityCodeFirst
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=localhost; " +
-                "initial Catalog=AtosEntity1;User ID=AtosEntity1; " +
-                "password=AtosEntity1;language=Portuguese;Trusted_Connection=True;" +
-                "TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Data Source=localhost;initial Catalog=AtosEntity1;User ID=AtosEntity1;password=AtosEntity1;language=Portuguese;Trusted_Connection=True;TrustServerCertificate=True;");
             optionsBuilder.UseLazyLoadingProxies();
         }
 

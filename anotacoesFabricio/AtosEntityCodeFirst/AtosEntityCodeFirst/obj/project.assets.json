@@ -3419,19 +3419,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fabri\\.nuget\\packages\\": {}
+    "C:\\Users\\fabricio.londero\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabri\\source\\repos\\AtosEntityCodeFirst\\AtosEntityCodeFirst\\AtosEntityCodeFirst.csproj",
+      "projectUniqueName": "C:\\Users\\fabricio.londero\\Downloads\\academiaDotNet_3-main\\anotacoesFabricio\\AtosEntityCodeFirst\\AtosEntityCodeFirst\\AtosEntityCodeFirst.csproj",
       "projectName": "AtosEntityCodeFirst",
-      "projectPath": "C:\\Users\\fabri\\source\\repos\\AtosEntityCodeFirst\\AtosEntityCodeFirst\\AtosEntityCodeFirst.csproj",
-      "packagesPath": "C:\\Users\\fabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabri\\source\\repos\\AtosEntityCodeFirst\\AtosEntityCodeFirst\\obj\\",
+      "projectPath": "C:\\Users\\fabricio.londero\\Downloads\\academiaDotNet_3-main\\anotacoesFabricio\\AtosEntityCodeFirst\\AtosEntityCodeFirst\\AtosEntityCodeFirst.csproj",
+      "packagesPath": "C:\\Users\\fabricio.londero\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fabricio.londero\\Downloads\\academiaDotNet_3-main\\anotacoesFabricio\\AtosEntityCodeFirst\\AtosEntityCodeFirst\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fabricio.londero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3491,7 +3491,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

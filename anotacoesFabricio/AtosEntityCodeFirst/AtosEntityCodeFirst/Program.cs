@@ -112,7 +112,7 @@ namespace AtosEntityCodeFirst
                         }
 
                         Console.WriteLine("1 para SIM e outra tecla para NÃO");
-                        if(int.Parse(Console.ReadLine()) == 1)
+                        if (int.Parse(Console.ReadLine()) == 1)
                         {
                             contexto.Pessoas.Remove(p);
                             contexto.SaveChanges();
@@ -132,8 +132,9 @@ namespace AtosEntityCodeFirst
                 case 5:
                     try
                     {
-                        List<Pessoa> lista = (from Pessoa p in contexto.Pessoas
-                            select p).Include(pes => pes.Emails).ToList<Pessoa>();
+                        //LINQ
+                        List<Pessoa> lista = (from Pessoa p in contexto.Pessoas select p)
+                            .Include(pes => pes.Emails).ToList<Pessoa>();
 
                         foreach (Pessoa item in lista)
                         {
@@ -152,6 +153,28 @@ namespace AtosEntityCodeFirst
                     }
                     break;
                 case 6:
+                    try
+                    {
+                        Console.WriteLine("Informe o ID da pessoa:");
+                        int idFiltro = int.Parse(Console.ReadLine());
+
+                        Pessoa p = contexto.Pessoas.Include(pes => pes.Emails)
+                            .FirstOrDefault(pessoa => pessoa.id == idFiltro);
+
+                        Console.WriteLine("Nome: " + p.nome);
+
+                        if(p.Emails != null)
+                        {
+                            foreach (Email item in p.Emails)
+                            {
+                                Console.WriteLine("\t" + item.email);
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
                     break;
                 default:
                     break;
