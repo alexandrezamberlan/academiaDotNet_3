@@ -1,0 +1,13 @@
+CODE FIRST
+
+Add-Migration Initial
+
+Update-Database
+
+
+DATABASE FIRST:
+
+Scaffold-DbContext "Data Source=localhost;initial Catalog=AtosEntity2;User ID=AtosEntity2;password=Atos_Entity_2;language=Portuguese;Trusted_Connection=True;TrustServerCertificate=True;"
+
+Provider: Microsoft.EntityFrameworkCore.SqlServer
+
