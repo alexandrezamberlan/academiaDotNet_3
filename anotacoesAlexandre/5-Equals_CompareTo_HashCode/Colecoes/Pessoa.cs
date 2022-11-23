@@ -29,6 +29,11 @@ namespace Colecoes
             return obj is Pessoa pessoa &&
                    CPF == pessoa.CPF;
         }
+        
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(CPF);
+        }
 
         public int CompareTo(object? obj) {
             Pessoa p = (Pessoa)obj;
@@ -41,6 +46,7 @@ namespace Colecoes
             }
             return 1;
         }
+
     }
 }
 

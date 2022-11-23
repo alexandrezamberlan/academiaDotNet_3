@@ -47,24 +47,63 @@ using Colecoes;
 //        pessoas.Add(p);
 //    }
 //}
+//foreach (var i in pessoas)
+//{
+//    Console.WriteLine(i);
+//}
+
+//SortedSet<Pessoa> pessoas = new SortedSet<Pessoa>();
+//Random gerador = new Random();
+//int numero;
+//for (int i = 0; i < 10; i++)
+//{
+//    numero = gerador.Next(10);
+//    if (!pessoas.Add(new Pessoa("Nome" + numero, ""+numero, DateOnly.Parse("12/12/2000"))));
+//    {
+//        System.Console.WriteLine("Pessoa com cpf já cadastrado");
+//    }
+//}
+
+//foreach (var i in pessoas)
+//{
+//    Console.WriteLine(i);
+//}
 
 
-SortedSet<Pessoa> pessoas = new SortedSet<Pessoa>();
-Random gerador = new Random();
-int numero;
-for (int i = 0; i < 10; i++)
+HashSet<Pessoa> pessoas = new HashSet<Pessoa>();
+string nome;
+string cpf;
+DateOnly dataNascimento;
+Pessoa p;
+
+for (int i = 0; i < 2; i++)
 {
-    numero = gerador.Next(10);
-    if (!pessoas.Add(new Pessoa("Nome" + numero, ""+numero, DateOnly.Parse("12/12/2000"))));
+    Console.Write("Nome: ");
+    nome = Console.ReadLine();
+
+    Console.Write("CPF: ");
+    cpf = Console.ReadLine();
+
+    Console.Write("Data Nascimento: ");
+    dataNascimento = DateOnly.Parse(Console.ReadLine());
+
+    p = new Pessoa(nome, cpf, dataNascimento);
+
+    if (!pessoas.Add(p))
     {
-        System.Console.WriteLine("Pessoa com matrícula já cadastrado");
+        Console.WriteLine("Pessoa não cadastrada por conflito de CPF");
     }
+
+    //SE OBSERVAREM AQUI... NÃO HÁ O CONTAINS, LOGO NÃO HÁ PESQUISA/BUSCA SEQUENCIAL
+    //MAS SIM CALCULO DE ENDEREÇAMENTO POR CHAVE HASH -> DO INGLÊS ESPALHAMENTO
 }
 
 foreach (var i in pessoas)
 {
     Console.WriteLine(i);
 }
+
+
 
 
 
