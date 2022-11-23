@@ -18,6 +18,7 @@ namespace _13_WinFormsAppConectandoBD
             conexao.Open();
             try
             {
+                //sqlTexto -> comando -> leitor (select)
                 string sqlTexto = "SELECT [MedidaGlicemia].idMedidaGlicemia, [MedidaGlicemia].valorGlicemia, [MedidaGlicemia].dataMedida, [Paciente].nome, [Paciente].idPaciente FROM MedidaGlicemia, Paciente WHERE[MedidaGlicemia].idPaciente = [Paciente].idPaciente";
                 //string sqlTexto = "SELECT idMedidaGlicemia, valorGlicemia, dataMedida, idPaciente FROM MedidaGlicemia";
                 SqlCommand comando = new SqlCommand(sqlTexto, conexao);

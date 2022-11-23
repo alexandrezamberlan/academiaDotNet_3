@@ -39,8 +39,10 @@ try
 catch (Exception e)
 {
 }
-
-conexao.Close();   
+finally {
+   conexao.Close();
+}
+   
 
 //recarregar ListView
 carregarListView(); 

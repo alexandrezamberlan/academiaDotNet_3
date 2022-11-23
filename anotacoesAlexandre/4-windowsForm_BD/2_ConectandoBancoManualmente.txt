@@ -25,9 +25,10 @@ Conectando com BD manualmente - https://www.youtube.com/watch?v=H0ZcSyl0xws
 7. Criar um objeto string global no Form
 private string conexaoString = ConfigurationManager.ConnectionStrings["GlicemiaDBString"].ConnectionString;
 
-8. No fonte Form, adicionar duas bibliotecas
+8. No fonte Form.cs, adicionar duas bibliotecas
 using System.Configuration;
 using Microsoft.Data.SqlClient;  
+using System.Data.SqlClient;
 
 9. No evento de Load do Form ou em evento de botão conectar
 

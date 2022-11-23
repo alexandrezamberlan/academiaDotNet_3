@@ -1,5 +1,15 @@
 # Roteiro das Aulas
 
+## 23/11/2022
+    - Reescrita (override) do: Equals, HashCode, CompareTo (ICompare)
+    - Criptografia: simétrica, assimétrica
+                    algoritmos
+                    exemplos em C#
+        - https://github.com/ricardosma/CriptografiaExemplo
+        - https://github.com/ricardosma/Criptografia
+
+## 16/11/2022
+    - Desafio 2 - Mini ERP - Windows Forms, ADO.Net, SQL Server, Management Studio
 ## 11/11/2022
     - Windows Forms + ADO.Net
         - Exemplo do Ricardo e do Fabrício -> CRUD + string conexão + sqlinjection

@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Exercicio1_lista3
 build_property.ProjectDir = c:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\Exercicio1_lista3\
