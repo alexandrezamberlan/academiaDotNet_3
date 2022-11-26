@@ -1,5 +1,28 @@
 # Roteiro das Aulas
 
+## 26/11/2022 - sábado
+    - Criptografia (continuação)
+        - função de embaralhamento (hash) via cálculo - função matemática
+        - codificar mensagens ou conteúdos entre remetente e destinatário
+            - há a criptografia no remetente, e a decriptografia no destinatário
+        - Tipos:
+            - criptografia simétrica: 
+                - mesma chave privada para remetente e destinatário
+                - menos segura
+                - mais rápida
+                - WhatsApp usa esse tipo
+            - criptografia assimétrica: 
+                - chave pública para o remetente
+                - chave privada para o destinatário
+                - mais segura
+                - mais lenta (principalmente no processo de decriptografia)
+                - usada em Certificações Digitais
+        - Algoritmos:
+            - simétrica: DES, 3DES, AES (WhatsApp)
+            - assimétrica: RSA, TwoFish
+
+    - Desafio Entity
+
 ## 23/11/2022
     - Reescrita (override) do: Equals, HashCode, CompareTo (ICompare)
     - Criptografia: simétrica, assimétrica

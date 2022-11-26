@@ -1,0 +1,15 @@
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\bin\Debug\net6.0\ConsoleAppCriptografia.exe
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\bin\Debug\net6.0\ConsoleAppCriptografia.deps.json
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\bin\Debug\net6.0\ConsoleAppCriptografia.runtimeconfig.json
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\bin\Debug\net6.0\ConsoleAppCriptografia.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\bin\Debug\net6.0\ConsoleAppCriptografia.pdb
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\obj\Debug\net6.0\ConsoleAppCriptografia.csproj.AssemblyReference.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\obj\Debug\net6.0\ConsoleAppCriptografia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\obj\Debug\net6.0\ConsoleAppCriptografia.AssemblyInfoInputs.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\obj\Debug\net6.0\ConsoleAppCriptografia.AssemblyInfo.cs
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\obj\Debug\net6.0\ConsoleAppCriptografia.csproj.CoreCompileInputs.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\obj\Debug\net6.0\ConsoleAppCriptografia.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\obj\Debug\net6.0\refint\ConsoleAppCriptografia.dll
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\obj\Debug\net6.0\ConsoleAppCriptografia.pdb
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\obj\Debug\net6.0\ConsoleAppCriptografia.genruntimeconfig.cache
+C:\Users\alexz\academiaDotNet_3\anotacoesAlexandre\6-Criptografia\ConsoleAppCriptografia\obj\Debug\net6.0\ref\ConsoleAppCriptografia.dll
