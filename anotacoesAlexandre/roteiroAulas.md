@@ -1,5 +1,15 @@
 # Roteiro das Aulas
 
+## 3011/2022
+    -Xamarin
+    - Site da Microsoft - https://learn.microsoft.com/pt-br/xamarin/get-started/what-is-xamarin
+    - Conhecendo Xamarin - https://youtu.be/rtuywS2fG2Y
+    - Tutoriais Xamarin (básico ao avançado) - https://youtube.com/playlist?list=PLfvOpw8k80WqDChdm1cdlWx0FIR9ILtcm 
+
+    - Foco
+        Xamarin.Android
+        Xamarin.Forms
+        Xamarin.Essentials
 ## 26/11/2022 - sábado
     - Criptografia (continuação)
         - função de embaralhamento (hash) via cálculo - função matemática
