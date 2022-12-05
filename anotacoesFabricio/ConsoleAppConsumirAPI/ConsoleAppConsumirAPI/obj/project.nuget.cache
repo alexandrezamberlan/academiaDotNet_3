@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "opdgQHbJRmOgDaGu87Y5G9OxQhlmPdqPO/cwDIQxbBmaScEYAeJhacbcaveqyuxqkpHnG/pioQL7VEvhw+ifag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fabri\\source\\repos\\ConsoleAppConsumirAPI\\ConsoleAppConsumirAPI\\ConsoleAppConsumirAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fabri\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
