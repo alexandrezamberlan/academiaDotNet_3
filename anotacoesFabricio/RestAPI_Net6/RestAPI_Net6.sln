@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPI_Net6", "RestAPI_Net6\RestAPI_Net6.csproj", "{F30D6E78-724C-47CF-BDAC-0246CF91AA0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F30D6E78-724C-47CF-BDAC-0246CF91AA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30D6E78-724C-47CF-BDAC-0246CF91AA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30D6E78-724C-47CF-BDAC-0246CF91AA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30D6E78-724C-47CF-BDAC-0246CF91AA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F85BA6E4-513D-40F3-9CE7-87CEE20F4308}
+	EndGlobalSection
+EndGlobal
